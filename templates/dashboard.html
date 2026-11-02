@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeuroFusion — Alzheimer's Multimodal Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0b1120; --panel: #111a2e; --panel2: #16213a; --line: #24324f;
+    --text: #e2e8f0; --muted: #94a3b8; --accent: #38bdf8;
+    --cn: #10b981; --mci: #f59e0b; --ad: #f43f5e;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 20px 24px; border-bottom: 1px solid var(--line); display: flex;
+           justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+  nav { display: flex; gap: 4px; flex-wrap: wrap; }
+  nav button { background: transparent; border: 1px solid var(--line); color: var(--muted);
+               padding: 6px 12px; border-radius: 6px; cursor: pointer; font: inherit; }
+  nav button.active { background: var(--panel2); color: var(--text); border-color: var(--accent); }
+  main { padding: 20px 24px; max-width: 1280px; margin: 0 auto; }
+  section[hidden] { display: none; }
+  .grid { display: grid; gap: 14px; }
+  .kpis { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); margin-bottom: 18px; }
+  .two { grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+  .card h3 { margin: 0 0 12px; font-size: 14px; color: var(--muted); font-weight: 600;
+             text-transform: uppercase; letter-spacing: .04em; }
+  .kpi .v { font-size: 26px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .kpi .l { color: var(--muted); font-size: 12px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  .scroll { overflow-x: auto; }
+  .cm td { text-align: center; font-weight: 600; width: 25%; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px;
+           border: 1px solid var(--line); }
+  .CN { color: var(--cn); } .MCI { color: var(--mci); } .AD { color: var(--ad); }
+  label { display: block; color: var(--muted); font-size: 12px; margin: 10px 0 4px; }
+  input, select, textarea { width: 100%; background: var(--panel2); color: var(--text);
+           border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; font: inherit; }
+  .btn { background: var(--accent); color: #04121f; border: 0; border-radius: 6px; padding: 9px 16px;
+         font-weight: 600; cursor: pointer; font: inherit; font-weight: 600; }
+  .btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  .btn:disabled { opacity: .5; cursor: wait; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .row > * { flex: 1 1 120px; }
+  .muted { color: var(--muted); }
+  .bar { height: 8px; background: var(--panel2); border-radius: 4px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; }
+  .heat img { width: 100%; border-radius: 8px; }
+  .chat-log { height: 360px; overflow-y: auto; background: var(--panel2); border-radius: 8px; padding: 12px; }
+  .msg { margin: 0 0 10px; white-space: pre-wrap; }
+  .msg.user { color: var(--accent); }
+  pre.report { white-space: pre-wrap; background: var(--panel2); padding: 12px; border-radius: 8px; }
+  .warn { background: #3b2a0b; border: 1px solid #a16207; color: #fde68a; padding: 10px 12px;
+          border-radius: 8px; margin-bottom: 16px; }
+  .stage { border-left: 3px solid var(--accent); padding-left: 12px; margin-bottom: 14px; }
+  .stage h4 { margin: 0 0 4px; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>NeuroFusion · Early Alzheimer's Prediction</h1>
+    <p>Multimodal MRI + PET + EEG + clinical staging (CN / MCI / AD) — research prototype</p>
+  </div>
+  <nav id="tabs">
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="predict">Live Prediction</button>
+    <button data-tab="dataset">Dataset</button>
+    <button data-tab="advisor">AI Advisor</button>
+    <button data-tab="workflow">Pipeline</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ============================ OVERVIEW ============================ -->
+  <section id="overview">
+    <div class="grid kpis" id="kpis"></div>
+    <div class="grid two">
+      <div class="card"><h3>Confusion matrix (test set)</h3><div class="scroll"><table class="cm" id="cm"></table></div></div>
+      <div class="card"><h3>Per-class metrics</h3><div class="scroll"><table id="perclass"></table></div></div>
+      <div class="card"><h3>Training history</h3><canvas id="histChart" height="200"></canvas></div>
+      <div class="card"><h3>Clinical feature importance (SHAP)</h3><canvas id="shapChart" height="200"></canvas></div>
+    </div>
+    <div class="card" style="margin-top:14px"><h3>Model comparison</h3><div class="scroll"><table id="models"></table></div></div>
+  </section>
+
+  <!-- ============================ PREDICT ============================ -->
+  <section id="predict" hidden>
+    <div class="grid two">
+      <div class="card">
+        <h3>Patient input</h3>
+        <label>Load a sample case</label>
+        <div class="row" id="samples"></div>
+        <div class="row" id="samplePreview" style="margin-top:10px"></div>
+        <div class="row">
+          <div><label>Age</label><input id="age" type="number" step="0.5" value="72"></div>
+          <div><label>Gender</label><select id="gender"><option>Female</option><option>Male</option></select></div>
+          <div><label>Education (yrs)</label><input id="education" type="number" value="14"></div>
+        </div>
+        <div class="row">
+          <div><label>MMSE (0–30)</label><input id="mmse" type="number" step="0.5" min="0" max="30" value="24"></div>
+          <div><label>CDR</label><select id="cdr"><option>0</option><option selected>0.5</option><option>1</option><option>2</option><option>3</option></select></div>
+        </div>
+        <label>MRI scan (.npy, .nii, .nii.gz, or image)</label><input id="mriFile" type="file">
+        <label>PET scan (.npy, .nii, .nii.gz, or image)</label><input id="petFile" type="file">
+        <label><input id="tta" type="checkbox" checked style="width:auto"> Test-time augmentation</label>
+        <div style="margin-top:14px"><button class="btn" id="runBtn">Run prediction</button></div>
+        <p class="muted" id="predStatus"></p>
+      </div>
+      <div class="card" id="resultCard">
+        <h3>Result</h3>
+        <p class="muted" id="noResult">Run a prediction to see results.</p>
+        <div id="result" hidden></div>
+      </div>
+    </div>
+    <div id="resultExtra" hidden>
+      <div class="grid two" style="margin-top:14px">
+        <div class="card heat" id="mriHeat"><h3>MRI Grad-CAM</h3></div>
+        <div class="card heat" id="petHeat"><h3>PET attention map</h3></div>
+      </div>
+      <div class="card" style="margin-top:14px"><h3>Per-modality results</h3><div class="scroll"><table id="sepTable"></table></div></div>
+      <div class="grid two" style="margin-top:14px">
+        <div class="card"><h3>Uncertainty &amp; rationale</h3><div id="novel"></div></div>
+        <div class="card"><h3>EEG profile</h3><canvas id="eegChart" height="200"></canvas><div id="eegInfo"></div></div>
+      </div>
+      <div class="card" style="margin-top:14px">
+        <h3>Clinical report</h3>
+        <button class="btn ghost" id="reportBtn">Generate consult summary</button>
+        <pre class="report" id="report" hidden></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ DATASET ============================ -->
+  <section id="dataset" hidden>
+    <div class="card">
+      <h3>Subjects</h3>
+      <div class="row" style="margin-bottom:10px"><input id="dsQuery" placeholder="Search subject ID or diagnosis…"></div>
+      <p class="muted" id="dsCount"></p>
+      <div class="scroll"><table id="dsTable"></table></div>
+    </div>
+  </section>
+
+  <!-- ============================ ADVISOR ============================ -->
+  <section id="advisor" hidden>
+    <div class="grid two">
+      <div class="card">
+        <h3>Clinical AI advisor</h3>
+        <div class="chat-log" id="chatLog"><p class="msg muted">Ask about MMSE/CDR, imaging findings, treatment, or the current prediction.</p></div>
+        <div class="row" style="margin-top:10px">
+          <input id="chatInput" placeholder="Type a question…" style="flex:4">
+          <button class="btn" id="chatBtn" style="flex:1">Send</button>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Gemini API key (optional)</h3>
+        <p class="muted">Without a key the built-in guideline engine answers offline.</p>
+        <input id="apiKey" type="password" placeholder="Paste key, or leave blank to use offline engine">
+        <div style="margin-top:10px"><button class="btn ghost" id="keyBtn">Save</button></div>
+        <p class="muted" id="keyStatus"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================ WORKFLOW ============================ -->
+  <section id="workflow" hidden>
+    <div class="card"><h3 id="wfTitle">Pipeline</h3><p class="muted" id="wfSummary"></p><div id="wfStages"></div></div>
+  </section>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+const pct = v => (v * 100).toFixed(1) + '%';
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const md = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+const COLORS = {CN: '#10b981', MCI: '#f59e0b', AD: '#f43f5e'};
+Chart.defaults.color = '#94a3b8';
+Chart.defaults.borderColor = '#24324f';
+
+let lastResult = null, chatHistory = [], eegChart = null;
+
+// ---------- tabs ----------
+$('tabs').addEventListener('click', e => {
+  const t = e.target.dataset.tab; if (!t) return;
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
+  document.querySelectorAll('main > section').forEach(s => s.hidden = s.id !== t);
+  if (t === 'dataset' && !$('dsTable').innerHTML) loadDataset();
+  if (t === 'workflow' && !$('wfStages').innerHTML) loadWorkflow();
+});
+
+// ---------- overview ----------
+async function loadOverview() {
+  const [ov, an] = await Promise.all([fetch('/api/overview').then(r => r.json()), fetch('/api/analytics').then(r => r.json())]);
+  const m = an.metrics;
+  const kpis = [
+    ['Test accuracy', m.accuracy_pct.toFixed(2) + '%', `${m.correct}/${m.total} correct`],
+    ['Macro AUC-ROC', m.macro_auc_roc.toFixed(4), 'one-vs-rest'],
+    ['Macro F1', m.macro_f1.toFixed(4), 'unweighted'],
+    ['Macro precision', m.macro_precision.toFixed(4), ''],
+    ['Macro recall', m.macro_recall.toFixed(4), 'sensitivity'],
+    ['Subjects', ov.total_subjects, `${ov.with_mri} MRI · ${ov.with_pet} PET`],
+  ];
+  $('kpis').innerHTML = kpis.map(([l, v, s]) => `<div class="card kpi"><div class="l">${l}</div><div class="v">${v}</div><div class="l">${s}</div></div>`).join('');
+
+  const cm = an.confusion_matrix, L = cm.labels;
+  const max = Math.max(...cm.matrix.flat());
+  $('cm').innerHTML = `<tr><th>True \\ Pred</th>${L.map(l => `<th style="text-align:center" class="${l}">${l}</th>`).join('')}</tr>` +
+    cm.matrix.map((row, i) => `<tr><th class="${L[i]}">${L[i]}</th>${row.map((v, j) =>
+      `<td style="background:rgba(56,189,248,${(v / max * 0.55).toFixed(2)})">${v}</td>`).join('')}</tr>`).join('');
+
+  $('perclass').innerHTML = '<tr><th>Class</th><th>Precision</th><th>Recall</th><th>Specificity</th><th>F1</th><th>Support</th></tr>' +
+    an.per_class.map(c => `<tr><td>${esc(c.class)}</td><td>${c.precision.toFixed(3)}</td><td>${c.recall.toFixed(3)}</td><td>${c.specificity.toFixed(3)}</td><td>${c.f1.toFixed(3)}</td><td>${c.support}</td></tr>`).join('');
+
+  $('models').innerHTML = '<tr><th>Model</th><th>Modalities</th><th>Accuracy</th><th>Correct</th><th>AUC</th><th>F1</th><th>Params</th></tr>' +
+    an.models_comparison.map(x => `<tr><td>${esc(x.name)}<br><span class="badge">${esc(x.badge)}</span></td><td class="muted">${esc(x.modalities)}</td><td>${x.test_accuracy}</td><td>${x.correct_ratio}</td><td>${x.macro_auc}</td><td>${x.macro_f1}</td><td>${x.parameters}</td></tr>`).join('');
+
+  const h = an.training_history;
+  new Chart($('histChart'), { type: 'line', data: { labels: h.epochs, datasets: [
+    { label: 'Train loss', data: h.train_loss, borderColor: '#f59e0b', tension: .3 },
+    { label: 'Val loss', data: h.val_loss, borderColor: '#f43f5e', tension: .3 },
+    { label: 'Train acc', data: h.train_acc, borderColor: '#38bdf8', tension: .3 },
+    { label: 'Val acc', data: h.val_acc, borderColor: '#10b981', tension: .3 },
+  ]}, options: { scales: { x: { title: { display: true, text: 'Epoch' } } } } });
+
+  new Chart($('shapChart'), { type: 'bar', data: { labels: an.shap_importance.map(s => s.feature),
+    datasets: [{ label: 'Mean |SHAP|', data: an.shap_importance.map(s => s.importance), backgroundColor: '#38bdf8', borderRadius: 4 }] },
+    options: { indexAxis: 'y', plugins: { legend: { display: false } } } });
+}
+
+// ---------- live prediction ----------
+async function loadSamples() {
+  const cases = await fetch('/api/sample-cases').then(r => r.json());
+  $('samples').innerHTML = cases.map(c => `<button class="btn ghost" data-id="${c.id}">${esc(c.id)}</button>`).join('') +
+    '<button class="btn ghost" data-id="">Clear</button>';
+  $('samples').onclick = e => {
+    const id = e.target.dataset.id; if (id === undefined) return;
+    [...$('samples').children].forEach(b => b.style.borderColor = id && b.dataset.id === id ? 'var(--accent)' : '');
+    if (!id) {
+      delete $('samples').dataset.selected;
+      $('samplePreview').innerHTML = '';
+      $('predStatus').textContent = 'No sample selected: the prediction uses your clinical values and any uploaded scans.';
+      return;
+    }
+    const c = cases.find(x => x.id === id);
+    $('samples').dataset.selected = c.id;
+    $('age').value = c.clinical.Age; $('gender').value = c.clinical.Gender; $('education').value = c.clinical.Education;
+    $('mmse').value = c.clinical.MMSE; $('cdr').value = String(c.clinical.CDR).replace('.0', '');
+    $('samplePreview').innerHTML = ['mri', 'pet'].map(m => `<figure style="margin:0;flex:1"><img src="${c[m + '_preview']}" alt="${m}" style="width:100%;border-radius:6px" onerror="this.parentNode.remove()"><figcaption class="muted" style="font-size:12px">${m.toUpperCase()} (axial)</figcaption></figure>`).join('');
+    $('predStatus').textContent = (c.subject_id ? `Real test-set subject ${c.subject_id} (true label ${c.id}) with MRI + PET. ` : '') + 'Uploaded scans replace the sample scans.';
+  };
+}
+
+$('runBtn').onclick = async () => {
+  const fd = new FormData();
+  ['age', 'gender', 'education', 'mmse', 'cdr'].forEach(k => fd.append(k, $(k).value));
+  fd.append('use_tta', $('tta').checked);
+  if ($('samples').dataset.selected) fd.append('sample_id', $('samples').dataset.selected);
+  if ($('mriFile').files[0]) fd.append('mri', $('mriFile').files[0]);
+  if ($('petFile').files[0]) fd.append('pet', $('petFile').files[0]);
+  $('runBtn').disabled = true; $('predStatus').textContent = 'Running inference…';
+  try {
+    const r = await fetch('/api/live-predict', { method: 'POST', body: fd });
+    const d = await r.json();
+    if (d.error) throw new Error(d.error);
+    lastResult = d; renderResult(d); $('predStatus').textContent = '';
+  } catch (err) { $('predStatus').textContent = 'Error: ' + err.message; }
+  $('runBtn').disabled = false;
+};
+
+function renderResult(d) {
+  $('noResult').hidden = true; $('result').hidden = false; $('resultExtra').hidden = false; $('report').hidden = true;
+  const probs = Object.entries(d.probabilities);
+  $('result').innerHTML = `
+    <div style="font-size:22px;font-weight:700" class="${d.prediction_code}">${esc(d.prediction)}</div>
+    <p class="muted">Confidence ${d.confidence_percentage}% · Risk: ${esc(d.risk_level)} · ${d.has_mri ? 'MRI ✓' : 'MRI ✗'} ${d.has_pet ? 'PET ✓' : 'PET ✗'}</p>
+    ${probs.map(([k, v]) => `<div class="row" style="margin:6px 0"><span style="flex:0 0 40px" class="${k}">${k}</span>
+      <div class="bar" style="flex:1"><span style="width:${v * 100}%;background:${COLORS[k]}"></span></div>
+      <span style="flex:0 0 56px;text-align:right">${pct(v)}</span></div>`).join('')}
+    <h3 style="margin-top:16px">Fusion weights</h3>
+    ${Object.entries(d.fusion_attention_weights).map(([k, v]) => `<span class="badge">${k}: ${pct(v)}</span> `).join('')}
+    <h3 style="margin-top:16px">Clinical notes</h3>
+    <ul>${d.clinical_notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>
+    <div style="white-space:pre-wrap">${md(d.ai_clinical_instructions)}</div>
+    <p class="muted" style="font-size:12px">${esc(d.disclaimer)}</p>`;
+
+  const heat = (id, b64, title) => $(id).innerHTML = `<h3>${title}</h3>` +
+    (b64 ? `<img src="data:image/png;base64,${b64}" alt="${title}">` : '<p class="muted">Scan not provided.</p>');
+  heat('mriHeat', d.mri_heatmap_b64, 'MRI Grad-CAM');
+  heat('petHeat', d.pet_heatmap_b64, 'PET attention map');
+
+  const s = d.separate_results;
+  $('sepTable').innerHTML = '<tr><th>Modality</th><th>Prediction</th><th>Confidence</th><th>Finding</th></tr>' +
+    ['mri', 'pet', 'clinical', 'eeg'].map(k => s[k]).map(x =>
+      `<tr><td>${esc(x.name)}</td><td class="${x.code}">${esc(x.prediction)}</td><td>${x.confidence}%</td><td class="muted">${esc(x.biomarker_finding)}</td></tr>`).join('') +
+    `<tr><td colspan="4"><b>${esc(s.concordance)}</b></td></tr>`;
+
+  const n = d.patent_novelties;
+  $('novel').innerHTML = `
+    <p><b>Evidential uncertainty:</b> ${n.edl.uncertainty_pct}% — ${esc(n.edl.recommendation)}</p>
+    <p><b>MVDI:</b> ${n.mvdi.global_mvdi} (${esc(n.mvdi.status)}) — <span class="muted">${esc(n.mvdi.interpretation)}</span></p>
+    <p><b>Neuro-symbolic verdict:</b> ${esc(n.copilot.verdict)}</p>
+    <ul>${n.copilot.rules_fired.map(r => `<li class="muted">${esc(r)}</li>`).join('')}</ul>`;
+
+  const e = d.eeg_data, palette = ['#38bdf8', '#10b981', '#f59e0b', '#f43f5e', '#a855f7', '#22d3ee', '#84cc16', '#e879f9'];
+  if (eegChart) eegChart.destroy();
+  eegChart = new Chart($('eegChart'), { type: 'line', data: {
+    labels: e.waveforms[0].points.map((_, i) => i),
+    datasets: e.waveforms.slice(0, 4).map((w, i) => ({ label: w.channel, data: w.points.map(p => p + i * 90), borderColor: palette[i], borderWidth: 1, pointRadius: 0 })) },
+    options: { animation: false, scales: { x: { display: false }, y: { display: false } } } });
+  $('eegInfo').innerHTML = `<p><b>${esc(e.biomarkers.dominant_frequency)}</b> · TAR ${e.biomarkers.tar} (${esc(e.biomarkers.tar_status)})</p><p class="muted">${esc(e.clinical_interpretation.summary)}</p>`;
+}
+
+$('reportBtn').onclick = async () => {
+  if (!lastResult) return;
+  const ctx = { ...lastResult, age: +$('age').value, gender: $('gender').value, education: +$('education').value, mmse: +$('mmse').value, cdr: +$('cdr').value };
+  delete ctx.mri_heatmap_b64; delete ctx.pet_heatmap_b64; delete ctx.eeg_data;
+  const d = await fetch('/api/generate-clinical-report', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ patient_context: ctx }) }).then(r => r.json());
+  $('report').textContent = d.report || d.error; $('report').hidden = false;
+};
+
+// ---------- dataset ----------
+let dsTimer;
+async function loadDataset() {
+  const q = $('dsQuery').value;
+  const rows = await fetch('/api/dataset-table?q=' + encodeURIComponent(q)).then(r => r.json());
+  $('dsCount').textContent = `${rows.length} subjects shown`;
+  $('dsTable').innerHTML = '<tr><th>Subject</th><th>Diagnosis</th><th>Age</th><th>Gender</th><th>Edu</th><th>MMSE</th><th>CDR</th><th>MRI</th><th>PET</th><th>Split</th></tr>' +
+    rows.map(r => `<tr><td>${esc(r.subject_id)}</td><td class="${esc(r.diagnosis)}">${esc(r.diagnosis)}</td><td>${r.age}</td><td>${esc(r.gender)}</td><td>${r.education}</td><td>${r.mmse}</td><td>${r.cdr}</td><td>${r.mri_available ? '✓' : '–'}</td><td>${r.pet_available ? '✓' : '–'}</td><td class="muted">${esc(r.split)}</td></tr>`).join('');
+}
+$('dsQuery').oninput = () => { clearTimeout(dsTimer); dsTimer = setTimeout(loadDataset, 250); };
+
+// ---------- advisor ----------
+function addMsg(text, cls) {
+  const p = document.createElement('p'); p.className = 'msg ' + cls; p.innerHTML = md(text);
+  $('chatLog').appendChild(p); $('chatLog').scrollTop = $('chatLog').scrollHeight;
+}
+async function sendChat() {
+  const q = $('chatInput').value.trim(); if (!q) return;
+  $('chatInput').value = ''; addMsg(q, 'user');
+  const ctx = lastResult ? { prediction: lastResult.prediction, prediction_code: lastResult.prediction_code, confidence_percentage: lastResult.confidence_percentage,
+    age: +$('age').value, gender: $('gender').value, mmse: +$('mmse').value, cdr: +$('cdr').value } : null;
+  const d = await fetch('/api/ai-chat', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: q, patient_context: ctx, history: chatHistory }) }).then(r => r.json());
+  const ans = d.response || d.error;
+  addMsg(ans + (d.source ? `\n— ${d.source}` : ''), 'bot');
+  chatHistory.push({ role: 'user', content: q }, { role: 'assistant', content: ans });
+}
+$('chatBtn').onclick = sendChat;
+$('chatInput').onkeydown = e => { if (e.key === 'Enter') sendChat(); };
+$('keyBtn').onclick = async () => {
+  const d = await fetch('/api/configure-api-key', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ api_key: $('apiKey').value }) }).then(r => r.json());
+  $('keyStatus').textContent = d.message || d.error;
+};
+
+// ---------- workflow ----------
+async function loadWorkflow() {
+  const w = await fetch('/api/workflow').then(r => r.json());
+  $('wfTitle').textContent = w.title; $('wfSummary').textContent = w.summary;
+  $('wfStages').innerHTML = w.stages.map(s => `<div class="stage"><h4>${s.step} · ${esc(s.name)} <span class="badge">${esc(s.category)}</span></h4>
+    <p>${esc(s.description)}</p><p class="muted">${Object.entries(s.tensors).map(([k, v]) => `<code>${esc(k)}</code>: ${esc(v)}`).join('<br>')}</p></div>`).join('');
+}
+
+loadOverview().catch(e => $('kpis').innerHTML = `<div class="warn">Failed to load metrics: ${esc(e.message)}</div>`);
+loadSamples();
+</script>
+</body>
+</html>

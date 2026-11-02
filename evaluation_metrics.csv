@@ -1,0 +1,11 @@
+metric,value,formatted,notes
+Test Accuracy,0.9,90.00%,81/90 subjects correct
+Balanced Accuracy,0.9038299663299663,90.38%,Average recall across classes
+Macro F1 Score,0.8990031146564602,0.8990,Unweighted mean across classes
+Weighted F1 Score,0.8988876846852417,0.8989,Support-weighted mean
+Macro Precision,0.8968235476856167,0.8968,Macro average precision
+Macro Recall / Sensitivity,0.9038299663299663,0.9038,Macro average sensitivity
+Macro ROC-AUC,0.970525741096134,0.9705,One-vs-Rest multi-class area under curve
+Total Test Subjects,90.0,90,100% unique subjects
+Correct Predictions,81.0,81,Identity trace of confusion matrix
+Incorrect Predictions,9.0,9,Off-diagonal elements

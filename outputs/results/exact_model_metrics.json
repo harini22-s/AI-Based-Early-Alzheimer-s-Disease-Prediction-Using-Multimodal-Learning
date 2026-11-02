@@ -1,0 +1,59 @@
+{
+  "source": "test_subject_predictions.csv",
+  "primary_model": {
+    "test": {
+      "accuracy": 0.9,
+      "accuracy_pct": 90.0,
+      "correct": 81,
+      "total": 90,
+      "macro_auc_roc": 0.970525741096134,
+      "macro_f1": 0.8990031146564602,
+      "macro_precision": 0.8968235476856167,
+      "macro_recall": 0.9038299663299663,
+      "macro_specificity": 0.9495342198181955,
+      "confusion_matrix": [
+        [
+          34,
+          2,
+          0
+        ],
+        [
+          3,
+          26,
+          3
+        ],
+        [
+          0,
+          1,
+          21
+        ]
+      ],
+      "per_class": {
+        "CN": {
+          "precision": 0.918918918918919,
+          "recall_sensitivity": 0.9444444444444444,
+          "f1": 0.9315068493150684,
+          "support": 36,
+          "specificity": 0.9444444444444444,
+          "auc_roc": 0.9989711934156379
+        },
+        "MCI": {
+          "precision": 0.896551724137931,
+          "recall_sensitivity": 0.8125,
+          "f1": 0.8524590163934426,
+          "support": 32,
+          "specificity": 0.9482758620689655,
+          "auc_roc": 0.915948275862069
+        },
+        "AD": {
+          "precision": 0.875,
+          "recall_sensitivity": 0.9545454545454546,
+          "f1": 0.9130434782608695,
+          "support": 22,
+          "specificity": 0.9558823529411765,
+          "auc_roc": 0.9966577540106952
+        }
+      }
+    }
+  }
+}

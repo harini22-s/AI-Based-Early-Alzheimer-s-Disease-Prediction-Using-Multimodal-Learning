@@ -1,0 +1,13 @@
+split,diagnosis,count,percentage
+train,CN,166,39.52
+train,MCI,148,35.24
+train,AD,106,25.24
+validation,CN,36,40.0
+validation,MCI,32,35.56
+validation,AD,22,24.44
+test,CN,36,40.0
+test,MCI,32,35.56
+test,AD,22,24.44
+overall,CN,238,39.67
+overall,MCI,212,35.33
+overall,AD,150,25.0

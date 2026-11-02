@@ -1,0 +1,9 @@
+{
+  "subject_id": "sub-0001",
+  "diagnosis": "AD",
+  "Age": 73.1,
+  "Gender": "Female",
+  "Education": 14.7,
+  "MMSE": 18.9,
+  "CDR": 1.0
+}

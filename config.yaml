@@ -1,0 +1,66 @@
+# =============================================================================
+# AI-Based Early Alzheimer's Disease Prediction Using Multimodal Learning
+# Central configuration file. Every script reads this — change values here,
+# not inside the code.
+# =============================================================================
+
+seed: 42
+
+paths:
+  raw_mri_dir: "data/raw/MRI"          # folder of *.nii / *.nii.gz MRI volumes (real data goes here)
+  raw_pet_dir: "data/raw/PET"          # folder of *.nii / *.nii.gz PET volumes (real data goes here)
+  clinical_csv: "data/raw/clinical.csv"        # tabular clinical/demographic data
+  labels_csv: "data/raw/labels.csv"            # subject_id -> diagnosis (CN/MCI/AD)
+  manifest_csv: "data/processed/manifest.csv"  # built automatically, links everything together
+  processed_dir: "data/processed"
+  checkpoint_dir: "outputs/checkpoints"
+  results_dir: "outputs/results"
+  explain_dir: "outputs/explainability"
+  log_dir: "outputs/logs"
+
+data:
+  image_size: [64, 64, 64]     # [D,H,W] after preprocessing. Use 96 or 128 if you have a GPU.
+  num_classes: 3
+  class_names: ["CN", "MCI", "AD"]
+  clinical_features: ["Age", "Gender", "Education", "MMSE", "CDR"]
+  categorical_features: ["Gender"]
+  val_split: 0.15
+  test_split: 0.15
+  augment: true
+
+# Synthetic data generator (used only when you don't have real scans yet,
+# so you can run the ENTIRE pipeline end to end today).
+synthetic:
+  n_subjects: 600               # >500, per the project brief
+  missing_mri_prob: 0.05        # fraction of subjects simulated as missing an MRI scan
+  missing_pet_prob: 0.15        # fraction of subjects simulated as missing a PET scan
+  class_balance: [0.40, 0.35, 0.25]   # CN, MCI, AD
+
+model:
+  mri_backbone: "cnn"           # "cnn" or "transformer"
+  pet_backbone: "transformer"   # "cnn" or "transformer"  (having one of each exercises both code paths)
+  cnn_channels: [16, 32, 64, 128]
+  vit_patch_size: 8
+  vit_embed_dim: 128
+  vit_depth: 4
+  vit_heads: 4
+  vit_mlp_ratio: 2.0
+  clinical_hidden: [64, 32]
+  fusion_dim: 128
+  fusion_heads: 4
+  classifier_hidden: [128, 64]
+  dropout: 0.3
+
+train:
+  batch_size: 8
+  epochs: 25
+  lr: 0.0001
+  weight_decay: 0.00001
+  early_stopping_patience: 8
+  num_workers: 0
+  device: "auto"                # "auto" | "cpu" | "cuda"
+
+explain:
+  n_gradcam_samples: 4
+  n_shap_background: 40
+  n_shap_samples: 15

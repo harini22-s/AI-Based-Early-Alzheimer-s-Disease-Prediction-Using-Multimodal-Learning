@@ -1,0 +1,1057 @@
+dataset,subject_id,standardized_id,PET,MRI,Clinical,Label,has_complete_multimodal
+data_raw,sub-0001,RAW_sub-0001,YES,YES,YES,AD,YES
+data_raw,sub-0002,RAW_sub-0002,YES,YES,YES,MCI,YES
+data_raw,sub-0003,RAW_sub-0003,YES,YES,YES,AD,YES
+data_raw,sub-0004,RAW_sub-0004,YES,YES,YES,MCI,YES
+data_raw,sub-0005,RAW_sub-0005,YES,YES,YES,CN,YES
+data_raw,sub-0006,RAW_sub-0006,YES,YES,YES,AD,YES
+data_raw,sub-0007,RAW_sub-0007,YES,YES,YES,AD,YES
+data_raw,sub-0008,RAW_sub-0008,YES,YES,YES,AD,YES
+data_raw,sub-0009,RAW_sub-0009,YES,YES,YES,CN,YES
+data_raw,sub-0010,RAW_sub-0010,YES,YES,YES,MCI,YES
+data_raw,sub-0011,RAW_sub-0011,YES,NO,YES,CN,NO
+data_raw,sub-0012,RAW_sub-0012,YES,NO,YES,AD,NO
+data_raw,sub-0013,RAW_sub-0013,NO,YES,YES,MCI,NO
+data_raw,sub-0014,RAW_sub-0014,YES,YES,YES,AD,YES
+data_raw,sub-0015,RAW_sub-0015,YES,YES,YES,MCI,YES
+data_raw,sub-0016,RAW_sub-0016,YES,YES,YES,CN,YES
+data_raw,sub-0017,RAW_sub-0017,YES,YES,YES,MCI,YES
+data_raw,sub-0018,RAW_sub-0018,YES,YES,YES,CN,YES
+data_raw,sub-0019,RAW_sub-0019,YES,YES,YES,AD,YES
+data_raw,sub-0020,RAW_sub-0020,YES,YES,YES,MCI,YES
+data_raw,sub-0021,RAW_sub-0021,YES,YES,YES,AD,YES
+data_raw,sub-0022,RAW_sub-0022,NO,YES,YES,CN,NO
+data_raw,sub-0023,RAW_sub-0023,YES,YES,YES,AD,YES
+data_raw,sub-0024,RAW_sub-0024,YES,YES,YES,AD,YES
+data_raw,sub-0025,RAW_sub-0025,YES,YES,YES,AD,YES
+data_raw,sub-0026,RAW_sub-0026,YES,YES,YES,CN,YES
+data_raw,sub-0027,RAW_sub-0027,YES,YES,YES,MCI,YES
+data_raw,sub-0028,RAW_sub-0028,YES,YES,YES,CN,YES
+data_raw,sub-0029,RAW_sub-0029,YES,YES,YES,CN,YES
+data_raw,sub-0030,RAW_sub-0030,YES,YES,YES,MCI,YES
+data_raw,sub-0031,RAW_sub-0031,YES,YES,YES,MCI,YES
+data_raw,sub-0032,RAW_sub-0032,YES,YES,YES,AD,YES
+data_raw,sub-0033,RAW_sub-0033,YES,YES,YES,CN,YES
+data_raw,sub-0034,RAW_sub-0034,YES,YES,YES,CN,YES
+data_raw,sub-0035,RAW_sub-0035,NO,YES,YES,MCI,NO
+data_raw,sub-0036,RAW_sub-0036,YES,YES,YES,CN,YES
+data_raw,sub-0037,RAW_sub-0037,YES,YES,YES,CN,YES
+data_raw,sub-0038,RAW_sub-0038,YES,YES,YES,MCI,YES
+data_raw,sub-0039,RAW_sub-0039,YES,YES,YES,CN,YES
+data_raw,sub-0040,RAW_sub-0040,YES,YES,YES,MCI,YES
+data_raw,sub-0041,RAW_sub-0041,YES,YES,YES,MCI,YES
+data_raw,sub-0042,RAW_sub-0042,YES,YES,YES,AD,YES
+data_raw,sub-0043,RAW_sub-0043,YES,YES,YES,MCI,YES
+data_raw,sub-0044,RAW_sub-0044,YES,YES,YES,CN,YES
+data_raw,sub-0045,RAW_sub-0045,NO,YES,YES,AD,NO
+data_raw,sub-0046,RAW_sub-0046,YES,YES,YES,AD,YES
+data_raw,sub-0047,RAW_sub-0047,YES,YES,YES,CN,YES
+data_raw,sub-0048,RAW_sub-0048,YES,YES,YES,CN,YES
+data_raw,sub-0049,RAW_sub-0049,YES,YES,YES,MCI,YES
+data_raw,sub-0050,RAW_sub-0050,YES,YES,YES,CN,YES
+data_raw,sub-0051,RAW_sub-0051,YES,YES,YES,CN,YES
+data_raw,sub-0052,RAW_sub-0052,YES,YES,YES,CN,YES
+data_raw,sub-0053,RAW_sub-0053,YES,NO,YES,AD,NO
+data_raw,sub-0054,RAW_sub-0054,YES,YES,YES,MCI,YES
+data_raw,sub-0055,RAW_sub-0055,NO,YES,YES,MCI,NO
+data_raw,sub-0056,RAW_sub-0056,YES,YES,YES,AD,YES
+data_raw,sub-0057,RAW_sub-0057,YES,YES,YES,MCI,YES
+data_raw,sub-0058,RAW_sub-0058,YES,YES,YES,MCI,YES
+data_raw,sub-0059,RAW_sub-0059,NO,YES,YES,CN,NO
+data_raw,sub-0060,RAW_sub-0060,NO,NO,YES,CN,NO
+data_raw,sub-0061,RAW_sub-0061,YES,YES,YES,MCI,YES
+data_raw,sub-0062,RAW_sub-0062,NO,YES,YES,MCI,NO
+data_raw,sub-0063,RAW_sub-0063,NO,YES,YES,MCI,NO
+data_raw,sub-0064,RAW_sub-0064,YES,YES,YES,AD,YES
+data_raw,sub-0065,RAW_sub-0065,YES,YES,YES,MCI,YES
+data_raw,sub-0066,RAW_sub-0066,YES,YES,YES,MCI,YES
+data_raw,sub-0067,RAW_sub-0067,YES,YES,YES,MCI,YES
+data_raw,sub-0068,RAW_sub-0068,YES,YES,YES,CN,YES
+data_raw,sub-0069,RAW_sub-0069,YES,YES,YES,CN,YES
+data_raw,sub-0070,RAW_sub-0070,YES,YES,YES,MCI,YES
+data_raw,sub-0071,RAW_sub-0071,YES,YES,YES,CN,YES
+data_raw,sub-0072,RAW_sub-0072,YES,YES,YES,MCI,YES
+data_raw,sub-0073,RAW_sub-0073,YES,YES,YES,AD,YES
+data_raw,sub-0074,RAW_sub-0074,YES,YES,YES,CN,YES
+data_raw,sub-0075,RAW_sub-0075,YES,YES,YES,CN,YES
+data_raw,sub-0076,RAW_sub-0076,YES,YES,YES,CN,YES
+data_raw,sub-0077,RAW_sub-0077,YES,YES,YES,CN,YES
+data_raw,sub-0078,RAW_sub-0078,NO,YES,YES,MCI,NO
+data_raw,sub-0079,RAW_sub-0079,YES,YES,YES,MCI,YES
+data_raw,sub-0080,RAW_sub-0080,YES,YES,YES,AD,YES
+data_raw,sub-0081,RAW_sub-0081,NO,YES,YES,MCI,NO
+data_raw,sub-0082,RAW_sub-0082,YES,YES,YES,MCI,YES
+data_raw,sub-0083,RAW_sub-0083,NO,YES,YES,AD,NO
+data_raw,sub-0084,RAW_sub-0084,YES,YES,YES,CN,YES
+data_raw,sub-0085,RAW_sub-0085,YES,YES,YES,CN,YES
+data_raw,sub-0086,RAW_sub-0086,YES,YES,YES,CN,YES
+data_raw,sub-0087,RAW_sub-0087,NO,YES,YES,MCI,NO
+data_raw,sub-0088,RAW_sub-0088,NO,YES,YES,MCI,NO
+data_raw,sub-0089,RAW_sub-0089,YES,YES,YES,CN,YES
+data_raw,sub-0090,RAW_sub-0090,YES,NO,YES,MCI,NO
+data_raw,sub-0091,RAW_sub-0091,NO,YES,YES,CN,NO
+data_raw,sub-0092,RAW_sub-0092,YES,YES,YES,MCI,YES
+data_raw,sub-0093,RAW_sub-0093,YES,YES,YES,MCI,YES
+data_raw,sub-0094,RAW_sub-0094,YES,YES,YES,CN,YES
+data_raw,sub-0095,RAW_sub-0095,YES,YES,YES,CN,YES
+data_raw,sub-0096,RAW_sub-0096,YES,YES,YES,MCI,YES
+data_raw,sub-0097,RAW_sub-0097,YES,YES,YES,CN,YES
+data_raw,sub-0098,RAW_sub-0098,YES,YES,YES,CN,YES
+data_raw,sub-0099,RAW_sub-0099,YES,YES,YES,CN,YES
+data_raw,sub-0100,RAW_sub-0100,YES,YES,YES,AD,YES
+data_raw,sub-0101,RAW_sub-0101,YES,YES,YES,AD,YES
+data_raw,sub-0102,RAW_sub-0102,YES,YES,YES,MCI,YES
+data_raw,sub-0103,RAW_sub-0103,YES,YES,YES,CN,YES
+data_raw,sub-0104,RAW_sub-0104,YES,YES,YES,AD,YES
+data_raw,sub-0105,RAW_sub-0105,YES,YES,YES,AD,YES
+data_raw,sub-0106,RAW_sub-0106,YES,YES,YES,MCI,YES
+data_raw,sub-0107,RAW_sub-0107,YES,NO,YES,MCI,NO
+data_raw,sub-0108,RAW_sub-0108,YES,YES,YES,CN,YES
+data_raw,sub-0109,RAW_sub-0109,NO,YES,YES,CN,NO
+data_raw,sub-0110,RAW_sub-0110,YES,YES,YES,AD,YES
+data_raw,sub-0111,RAW_sub-0111,YES,YES,YES,MCI,YES
+data_raw,sub-0112,RAW_sub-0112,YES,YES,YES,CN,YES
+data_raw,sub-0113,RAW_sub-0113,YES,YES,YES,CN,YES
+data_raw,sub-0114,RAW_sub-0114,YES,YES,YES,MCI,YES
+data_raw,sub-0115,RAW_sub-0115,YES,YES,YES,CN,YES
+data_raw,sub-0116,RAW_sub-0116,YES,YES,YES,AD,YES
+data_raw,sub-0117,RAW_sub-0117,YES,NO,YES,AD,NO
+data_raw,sub-0118,RAW_sub-0118,YES,YES,YES,MCI,YES
+data_raw,sub-0119,RAW_sub-0119,YES,YES,YES,MCI,YES
+data_raw,sub-0120,RAW_sub-0120,YES,YES,YES,MCI,YES
+data_raw,sub-0121,RAW_sub-0121,NO,YES,YES,MCI,NO
+data_raw,sub-0122,RAW_sub-0122,NO,YES,YES,MCI,NO
+data_raw,sub-0123,RAW_sub-0123,YES,YES,YES,CN,YES
+data_raw,sub-0124,RAW_sub-0124,YES,YES,YES,MCI,YES
+data_raw,sub-0125,RAW_sub-0125,YES,YES,YES,CN,YES
+data_raw,sub-0126,RAW_sub-0126,YES,YES,YES,MCI,YES
+data_raw,sub-0127,RAW_sub-0127,YES,YES,YES,CN,YES
+data_raw,sub-0128,RAW_sub-0128,YES,YES,YES,CN,YES
+data_raw,sub-0129,RAW_sub-0129,NO,YES,YES,CN,NO
+data_raw,sub-0130,RAW_sub-0130,YES,YES,YES,MCI,YES
+data_raw,sub-0131,RAW_sub-0131,YES,YES,YES,CN,YES
+data_raw,sub-0132,RAW_sub-0132,YES,YES,YES,AD,YES
+data_raw,sub-0133,RAW_sub-0133,YES,YES,YES,MCI,YES
+data_raw,sub-0134,RAW_sub-0134,YES,YES,YES,CN,YES
+data_raw,sub-0135,RAW_sub-0135,YES,YES,YES,MCI,YES
+data_raw,sub-0136,RAW_sub-0136,YES,YES,YES,CN,YES
+data_raw,sub-0137,RAW_sub-0137,YES,YES,YES,AD,YES
+data_raw,sub-0138,RAW_sub-0138,NO,YES,YES,MCI,NO
+data_raw,sub-0139,RAW_sub-0139,YES,YES,YES,AD,YES
+data_raw,sub-0140,RAW_sub-0140,YES,YES,YES,CN,YES
+data_raw,sub-0141,RAW_sub-0141,YES,YES,YES,MCI,YES
+data_raw,sub-0142,RAW_sub-0142,YES,YES,YES,MCI,YES
+data_raw,sub-0143,RAW_sub-0143,YES,YES,YES,AD,YES
+data_raw,sub-0144,RAW_sub-0144,NO,YES,YES,MCI,NO
+data_raw,sub-0145,RAW_sub-0145,YES,YES,YES,MCI,YES
+data_raw,sub-0146,RAW_sub-0146,YES,YES,YES,CN,YES
+data_raw,sub-0147,RAW_sub-0147,YES,YES,YES,CN,YES
+data_raw,sub-0148,RAW_sub-0148,YES,YES,YES,MCI,YES
+data_raw,sub-0149,RAW_sub-0149,NO,YES,YES,MCI,NO
+data_raw,sub-0150,RAW_sub-0150,YES,YES,YES,CN,YES
+data_raw,sub-0151,RAW_sub-0151,YES,YES,YES,AD,YES
+data_raw,sub-0152,RAW_sub-0152,YES,YES,YES,AD,YES
+data_raw,sub-0153,RAW_sub-0153,YES,YES,YES,CN,YES
+data_raw,sub-0154,RAW_sub-0154,YES,YES,YES,MCI,YES
+data_raw,sub-0155,RAW_sub-0155,YES,YES,YES,CN,YES
+data_raw,sub-0156,RAW_sub-0156,YES,YES,YES,MCI,YES
+data_raw,sub-0157,RAW_sub-0157,YES,YES,YES,CN,YES
+data_raw,sub-0158,RAW_sub-0158,NO,YES,YES,MCI,NO
+data_raw,sub-0159,RAW_sub-0159,YES,YES,YES,MCI,YES
+data_raw,sub-0160,RAW_sub-0160,YES,YES,YES,AD,YES
+data_raw,sub-0161,RAW_sub-0161,NO,YES,YES,CN,NO
+data_raw,sub-0162,RAW_sub-0162,YES,YES,YES,AD,YES
+data_raw,sub-0163,RAW_sub-0163,YES,YES,YES,CN,YES
+data_raw,sub-0164,RAW_sub-0164,YES,YES,YES,CN,YES
+data_raw,sub-0165,RAW_sub-0165,YES,YES,YES,MCI,YES
+data_raw,sub-0166,RAW_sub-0166,NO,NO,YES,CN,NO
+data_raw,sub-0167,RAW_sub-0167,NO,YES,YES,AD,NO
+data_raw,sub-0168,RAW_sub-0168,YES,YES,YES,AD,YES
+data_raw,sub-0169,RAW_sub-0169,YES,YES,YES,CN,YES
+data_raw,sub-0170,RAW_sub-0170,YES,YES,YES,AD,YES
+data_raw,sub-0171,RAW_sub-0171,YES,YES,YES,CN,YES
+data_raw,sub-0172,RAW_sub-0172,YES,YES,YES,MCI,YES
+data_raw,sub-0173,RAW_sub-0173,YES,YES,YES,CN,YES
+data_raw,sub-0174,RAW_sub-0174,NO,YES,YES,AD,NO
+data_raw,sub-0175,RAW_sub-0175,YES,YES,YES,CN,YES
+data_raw,sub-0176,RAW_sub-0176,YES,YES,YES,CN,YES
+data_raw,sub-0177,RAW_sub-0177,NO,YES,YES,MCI,NO
+data_raw,sub-0178,RAW_sub-0178,YES,YES,YES,AD,YES
+data_raw,sub-0179,RAW_sub-0179,NO,YES,YES,AD,NO
+data_raw,sub-0180,RAW_sub-0180,YES,YES,YES,MCI,YES
+data_raw,sub-0181,RAW_sub-0181,YES,YES,YES,AD,YES
+data_raw,sub-0182,RAW_sub-0182,YES,YES,YES,AD,YES
+data_raw,sub-0183,RAW_sub-0183,YES,YES,YES,MCI,YES
+data_raw,sub-0184,RAW_sub-0184,YES,YES,YES,CN,YES
+data_raw,sub-0185,RAW_sub-0185,YES,YES,YES,AD,YES
+data_raw,sub-0186,RAW_sub-0186,NO,YES,YES,MCI,NO
+data_raw,sub-0187,RAW_sub-0187,YES,YES,YES,CN,YES
+data_raw,sub-0188,RAW_sub-0188,YES,YES,YES,CN,YES
+data_raw,sub-0189,RAW_sub-0189,YES,YES,YES,MCI,YES
+data_raw,sub-0190,RAW_sub-0190,NO,YES,YES,CN,NO
+data_raw,sub-0191,RAW_sub-0191,YES,YES,YES,AD,YES
+data_raw,sub-0192,RAW_sub-0192,YES,YES,YES,CN,YES
+data_raw,sub-0193,RAW_sub-0193,YES,NO,YES,CN,NO
+data_raw,sub-0194,RAW_sub-0194,YES,YES,YES,AD,YES
+data_raw,sub-0195,RAW_sub-0195,YES,YES,YES,CN,YES
+data_raw,sub-0196,RAW_sub-0196,YES,YES,YES,CN,YES
+data_raw,sub-0197,RAW_sub-0197,YES,YES,YES,MCI,YES
+data_raw,sub-0198,RAW_sub-0198,YES,NO,YES,AD,NO
+data_raw,sub-0199,RAW_sub-0199,YES,YES,YES,CN,YES
+data_raw,sub-0200,RAW_sub-0200,NO,YES,YES,CN,NO
+data_raw,sub-0201,RAW_sub-0201,YES,NO,YES,AD,NO
+data_raw,sub-0202,RAW_sub-0202,NO,YES,YES,AD,NO
+data_raw,sub-0203,RAW_sub-0203,YES,YES,YES,MCI,YES
+data_raw,sub-0204,RAW_sub-0204,YES,NO,YES,CN,NO
+data_raw,sub-0205,RAW_sub-0205,YES,YES,YES,CN,YES
+data_raw,sub-0206,RAW_sub-0206,YES,YES,YES,CN,YES
+data_raw,sub-0207,RAW_sub-0207,YES,YES,YES,CN,YES
+data_raw,sub-0208,RAW_sub-0208,YES,YES,YES,MCI,YES
+data_raw,sub-0209,RAW_sub-0209,YES,YES,YES,CN,YES
+data_raw,sub-0210,RAW_sub-0210,NO,YES,YES,MCI,NO
+data_raw,sub-0211,RAW_sub-0211,YES,YES,YES,MCI,YES
+data_raw,sub-0212,RAW_sub-0212,YES,YES,YES,MCI,YES
+data_raw,sub-0213,RAW_sub-0213,YES,NO,YES,CN,NO
+data_raw,sub-0214,RAW_sub-0214,YES,YES,YES,AD,YES
+data_raw,sub-0215,RAW_sub-0215,YES,YES,YES,MCI,YES
+data_raw,sub-0216,RAW_sub-0216,YES,YES,YES,MCI,YES
+data_raw,sub-0217,RAW_sub-0217,YES,YES,YES,CN,YES
+data_raw,sub-0218,RAW_sub-0218,YES,YES,YES,CN,YES
+data_raw,sub-0219,RAW_sub-0219,YES,YES,YES,AD,YES
+data_raw,sub-0220,RAW_sub-0220,YES,YES,YES,CN,YES
+data_raw,sub-0221,RAW_sub-0221,YES,YES,YES,CN,YES
+data_raw,sub-0222,RAW_sub-0222,YES,YES,YES,MCI,YES
+data_raw,sub-0223,RAW_sub-0223,YES,YES,YES,MCI,YES
+data_raw,sub-0224,RAW_sub-0224,YES,YES,YES,AD,YES
+data_raw,sub-0225,RAW_sub-0225,NO,YES,YES,CN,NO
+data_raw,sub-0226,RAW_sub-0226,YES,YES,YES,AD,YES
+data_raw,sub-0227,RAW_sub-0227,YES,YES,YES,CN,YES
+data_raw,sub-0228,RAW_sub-0228,YES,YES,YES,MCI,YES
+data_raw,sub-0229,RAW_sub-0229,YES,YES,YES,MCI,YES
+data_raw,sub-0230,RAW_sub-0230,YES,YES,YES,CN,YES
+data_raw,sub-0231,RAW_sub-0231,YES,YES,YES,CN,YES
+data_raw,sub-0232,RAW_sub-0232,NO,YES,YES,MCI,NO
+data_raw,sub-0233,RAW_sub-0233,YES,YES,YES,AD,YES
+data_raw,sub-0234,RAW_sub-0234,YES,YES,YES,MCI,YES
+data_raw,sub-0235,RAW_sub-0235,NO,YES,YES,AD,NO
+data_raw,sub-0236,RAW_sub-0236,NO,YES,YES,AD,NO
+data_raw,sub-0237,RAW_sub-0237,YES,YES,YES,MCI,YES
+data_raw,sub-0238,RAW_sub-0238,YES,YES,YES,AD,YES
+data_raw,sub-0239,RAW_sub-0239,YES,YES,YES,CN,YES
+data_raw,sub-0240,RAW_sub-0240,YES,YES,YES,CN,YES
+data_raw,sub-0241,RAW_sub-0241,YES,YES,YES,AD,YES
+data_raw,sub-0242,RAW_sub-0242,YES,YES,YES,AD,YES
+data_raw,sub-0243,RAW_sub-0243,YES,YES,YES,CN,YES
+data_raw,sub-0244,RAW_sub-0244,NO,YES,YES,MCI,NO
+data_raw,sub-0245,RAW_sub-0245,YES,YES,YES,MCI,YES
+data_raw,sub-0246,RAW_sub-0246,YES,YES,YES,AD,YES
+data_raw,sub-0247,RAW_sub-0247,YES,YES,YES,MCI,YES
+data_raw,sub-0248,RAW_sub-0248,YES,YES,YES,MCI,YES
+data_raw,sub-0249,RAW_sub-0249,NO,YES,YES,CN,NO
+data_raw,sub-0250,RAW_sub-0250,YES,YES,YES,MCI,YES
+data_raw,sub-0251,RAW_sub-0251,NO,YES,YES,MCI,NO
+data_raw,sub-0252,RAW_sub-0252,YES,YES,YES,AD,YES
+data_raw,sub-0253,RAW_sub-0253,YES,YES,YES,MCI,YES
+data_raw,sub-0254,RAW_sub-0254,NO,YES,YES,CN,NO
+data_raw,sub-0255,RAW_sub-0255,YES,YES,YES,CN,YES
+data_raw,sub-0256,RAW_sub-0256,YES,YES,YES,MCI,YES
+data_raw,sub-0257,RAW_sub-0257,NO,YES,YES,AD,NO
+data_raw,sub-0258,RAW_sub-0258,YES,YES,YES,CN,YES
+data_raw,sub-0259,RAW_sub-0259,NO,YES,YES,CN,NO
+data_raw,sub-0260,RAW_sub-0260,NO,YES,YES,MCI,NO
+data_raw,sub-0261,RAW_sub-0261,YES,YES,YES,CN,YES
+data_raw,sub-0262,RAW_sub-0262,YES,YES,YES,AD,YES
+data_raw,sub-0263,RAW_sub-0263,YES,NO,YES,CN,NO
+data_raw,sub-0264,RAW_sub-0264,YES,YES,YES,CN,YES
+data_raw,sub-0265,RAW_sub-0265,YES,YES,YES,AD,YES
+data_raw,sub-0266,RAW_sub-0266,YES,YES,YES,CN,YES
+data_raw,sub-0267,RAW_sub-0267,YES,YES,YES,CN,YES
+data_raw,sub-0268,RAW_sub-0268,YES,YES,YES,CN,YES
+data_raw,sub-0269,RAW_sub-0269,YES,YES,YES,CN,YES
+data_raw,sub-0270,RAW_sub-0270,YES,YES,YES,CN,YES
+data_raw,sub-0271,RAW_sub-0271,YES,YES,YES,CN,YES
+data_raw,sub-0272,RAW_sub-0272,YES,YES,YES,CN,YES
+data_raw,sub-0273,RAW_sub-0273,NO,YES,YES,CN,NO
+data_raw,sub-0274,RAW_sub-0274,YES,YES,YES,MCI,YES
+data_raw,sub-0275,RAW_sub-0275,YES,YES,YES,MCI,YES
+data_raw,sub-0276,RAW_sub-0276,YES,YES,YES,CN,YES
+data_raw,sub-0277,RAW_sub-0277,YES,YES,YES,CN,YES
+data_raw,sub-0278,RAW_sub-0278,NO,YES,YES,MCI,NO
+data_raw,sub-0279,RAW_sub-0279,YES,YES,YES,AD,YES
+data_raw,sub-0280,RAW_sub-0280,NO,YES,YES,AD,NO
+data_raw,sub-0281,RAW_sub-0281,YES,YES,YES,CN,YES
+data_raw,sub-0282,RAW_sub-0282,YES,YES,YES,CN,YES
+data_raw,sub-0283,RAW_sub-0283,YES,YES,YES,CN,YES
+data_raw,sub-0284,RAW_sub-0284,NO,YES,YES,CN,NO
+data_raw,sub-0285,RAW_sub-0285,YES,YES,YES,MCI,YES
+data_raw,sub-0286,RAW_sub-0286,YES,YES,YES,MCI,YES
+data_raw,sub-0287,RAW_sub-0287,YES,YES,YES,CN,YES
+data_raw,sub-0288,RAW_sub-0288,YES,YES,YES,CN,YES
+data_raw,sub-0289,RAW_sub-0289,YES,YES,YES,MCI,YES
+data_raw,sub-0290,RAW_sub-0290,YES,YES,YES,CN,YES
+data_raw,sub-0291,RAW_sub-0291,NO,YES,YES,AD,NO
+data_raw,sub-0292,RAW_sub-0292,YES,YES,YES,CN,YES
+data_raw,sub-0293,RAW_sub-0293,NO,YES,YES,AD,NO
+data_raw,sub-0294,RAW_sub-0294,YES,YES,YES,CN,YES
+data_raw,sub-0295,RAW_sub-0295,YES,YES,YES,AD,YES
+data_raw,sub-0296,RAW_sub-0296,YES,YES,YES,AD,YES
+data_raw,sub-0297,RAW_sub-0297,YES,YES,YES,AD,YES
+data_raw,sub-0298,RAW_sub-0298,NO,YES,YES,AD,NO
+data_raw,sub-0299,RAW_sub-0299,YES,YES,YES,AD,YES
+data_raw,sub-0300,RAW_sub-0300,NO,YES,YES,MCI,NO
+data_raw,sub-0301,RAW_sub-0301,YES,YES,YES,AD,YES
+data_raw,sub-0302,RAW_sub-0302,YES,YES,YES,CN,YES
+data_raw,sub-0303,RAW_sub-0303,NO,YES,YES,MCI,NO
+data_raw,sub-0304,RAW_sub-0304,YES,YES,YES,MCI,YES
+data_raw,sub-0305,RAW_sub-0305,NO,YES,YES,AD,NO
+data_raw,sub-0306,RAW_sub-0306,YES,YES,YES,MCI,YES
+data_raw,sub-0307,RAW_sub-0307,YES,YES,YES,CN,YES
+data_raw,sub-0308,RAW_sub-0308,NO,YES,YES,MCI,NO
+data_raw,sub-0309,RAW_sub-0309,YES,YES,YES,CN,YES
+data_raw,sub-0310,RAW_sub-0310,NO,YES,YES,CN,NO
+data_raw,sub-0311,RAW_sub-0311,YES,YES,YES,MCI,YES
+data_raw,sub-0312,RAW_sub-0312,YES,YES,YES,MCI,YES
+data_raw,sub-0313,RAW_sub-0313,YES,YES,YES,CN,YES
+data_raw,sub-0314,RAW_sub-0314,YES,YES,YES,CN,YES
+data_raw,sub-0315,RAW_sub-0315,YES,YES,YES,CN,YES
+data_raw,sub-0316,RAW_sub-0316,YES,YES,YES,CN,YES
+data_raw,sub-0317,RAW_sub-0317,YES,YES,YES,CN,YES
+data_raw,sub-0318,RAW_sub-0318,YES,YES,YES,MCI,YES
+data_raw,sub-0319,RAW_sub-0319,YES,YES,YES,CN,YES
+data_raw,sub-0320,RAW_sub-0320,YES,YES,YES,AD,YES
+data_raw,sub-0321,RAW_sub-0321,YES,YES,YES,AD,YES
+data_raw,sub-0322,RAW_sub-0322,YES,YES,YES,MCI,YES
+data_raw,sub-0323,RAW_sub-0323,YES,YES,YES,CN,YES
+data_raw,sub-0324,RAW_sub-0324,YES,YES,YES,MCI,YES
+data_raw,sub-0325,RAW_sub-0325,YES,YES,YES,AD,YES
+data_raw,sub-0326,RAW_sub-0326,YES,YES,YES,MCI,YES
+data_raw,sub-0327,RAW_sub-0327,YES,YES,YES,AD,YES
+data_raw,sub-0328,RAW_sub-0328,YES,YES,YES,MCI,YES
+data_raw,sub-0329,RAW_sub-0329,YES,YES,YES,MCI,YES
+data_raw,sub-0330,RAW_sub-0330,YES,YES,YES,CN,YES
+data_raw,sub-0331,RAW_sub-0331,YES,YES,YES,MCI,YES
+data_raw,sub-0332,RAW_sub-0332,YES,YES,YES,CN,YES
+data_raw,sub-0333,RAW_sub-0333,YES,NO,YES,MCI,NO
+data_raw,sub-0334,RAW_sub-0334,YES,YES,YES,AD,YES
+data_raw,sub-0335,RAW_sub-0335,YES,YES,YES,CN,YES
+data_raw,sub-0336,RAW_sub-0336,YES,YES,YES,MCI,YES
+data_raw,sub-0337,RAW_sub-0337,YES,YES,YES,CN,YES
+data_raw,sub-0338,RAW_sub-0338,YES,YES,YES,MCI,YES
+data_raw,sub-0339,RAW_sub-0339,YES,YES,YES,CN,YES
+data_raw,sub-0340,RAW_sub-0340,YES,YES,YES,AD,YES
+data_raw,sub-0341,RAW_sub-0341,YES,YES,YES,CN,YES
+data_raw,sub-0342,RAW_sub-0342,YES,YES,YES,AD,YES
+data_raw,sub-0343,RAW_sub-0343,YES,YES,YES,AD,YES
+data_raw,sub-0344,RAW_sub-0344,YES,YES,YES,MCI,YES
+data_raw,sub-0345,RAW_sub-0345,YES,YES,YES,AD,YES
+data_raw,sub-0346,RAW_sub-0346,YES,YES,YES,AD,YES
+data_raw,sub-0347,RAW_sub-0347,YES,YES,YES,AD,YES
+data_raw,sub-0348,RAW_sub-0348,YES,YES,YES,CN,YES
+data_raw,sub-0349,RAW_sub-0349,YES,NO,YES,MCI,NO
+data_raw,sub-0350,RAW_sub-0350,YES,YES,YES,CN,YES
+data_raw,sub-0351,RAW_sub-0351,YES,YES,YES,MCI,YES
+data_raw,sub-0352,RAW_sub-0352,YES,YES,YES,CN,YES
+data_raw,sub-0353,RAW_sub-0353,YES,YES,YES,MCI,YES
+data_raw,sub-0354,RAW_sub-0354,YES,YES,YES,MCI,YES
+data_raw,sub-0355,RAW_sub-0355,YES,YES,YES,MCI,YES
+data_raw,sub-0356,RAW_sub-0356,YES,YES,YES,MCI,YES
+data_raw,sub-0357,RAW_sub-0357,YES,YES,YES,AD,YES
+data_raw,sub-0358,RAW_sub-0358,NO,YES,YES,AD,NO
+data_raw,sub-0359,RAW_sub-0359,NO,YES,YES,MCI,NO
+data_raw,sub-0360,RAW_sub-0360,YES,YES,YES,MCI,YES
+data_raw,sub-0361,RAW_sub-0361,YES,YES,YES,AD,YES
+data_raw,sub-0362,RAW_sub-0362,NO,YES,YES,CN,NO
+data_raw,sub-0363,RAW_sub-0363,YES,YES,YES,CN,YES
+data_raw,sub-0364,RAW_sub-0364,YES,NO,YES,CN,NO
+data_raw,sub-0365,RAW_sub-0365,YES,YES,YES,MCI,YES
+data_raw,sub-0366,RAW_sub-0366,YES,YES,YES,MCI,YES
+data_raw,sub-0367,RAW_sub-0367,YES,YES,YES,AD,YES
+data_raw,sub-0368,RAW_sub-0368,YES,YES,YES,MCI,YES
+data_raw,sub-0369,RAW_sub-0369,YES,YES,YES,CN,YES
+data_raw,sub-0370,RAW_sub-0370,NO,NO,YES,AD,NO
+data_raw,sub-0371,RAW_sub-0371,YES,YES,YES,AD,YES
+data_raw,sub-0372,RAW_sub-0372,NO,YES,YES,CN,NO
+data_raw,sub-0373,RAW_sub-0373,NO,YES,YES,CN,NO
+data_raw,sub-0374,RAW_sub-0374,YES,YES,YES,CN,YES
+data_raw,sub-0375,RAW_sub-0375,YES,YES,YES,CN,YES
+data_raw,sub-0376,RAW_sub-0376,YES,YES,YES,CN,YES
+data_raw,sub-0377,RAW_sub-0377,YES,YES,YES,AD,YES
+data_raw,sub-0378,RAW_sub-0378,YES,YES,YES,MCI,YES
+data_raw,sub-0379,RAW_sub-0379,NO,YES,YES,CN,NO
+data_raw,sub-0380,RAW_sub-0380,NO,YES,YES,MCI,NO
+data_raw,sub-0381,RAW_sub-0381,YES,YES,YES,MCI,YES
+data_raw,sub-0382,RAW_sub-0382,YES,YES,YES,AD,YES
+data_raw,sub-0383,RAW_sub-0383,NO,YES,YES,AD,NO
+data_raw,sub-0384,RAW_sub-0384,YES,NO,YES,MCI,NO
+data_raw,sub-0385,RAW_sub-0385,YES,YES,YES,CN,YES
+data_raw,sub-0386,RAW_sub-0386,YES,YES,YES,AD,YES
+data_raw,sub-0387,RAW_sub-0387,YES,YES,YES,MCI,YES
+data_raw,sub-0388,RAW_sub-0388,YES,YES,YES,AD,YES
+data_raw,sub-0389,RAW_sub-0389,YES,YES,YES,CN,YES
+data_raw,sub-0390,RAW_sub-0390,YES,YES,YES,AD,YES
+data_raw,sub-0391,RAW_sub-0391,YES,YES,YES,MCI,YES
+data_raw,sub-0392,RAW_sub-0392,NO,YES,YES,CN,NO
+data_raw,sub-0393,RAW_sub-0393,YES,YES,YES,MCI,YES
+data_raw,sub-0394,RAW_sub-0394,YES,YES,YES,MCI,YES
+data_raw,sub-0395,RAW_sub-0395,YES,YES,YES,CN,YES
+data_raw,sub-0396,RAW_sub-0396,YES,YES,YES,MCI,YES
+data_raw,sub-0397,RAW_sub-0397,YES,YES,YES,AD,YES
+data_raw,sub-0398,RAW_sub-0398,NO,YES,YES,CN,NO
+data_raw,sub-0399,RAW_sub-0399,YES,YES,YES,MCI,YES
+data_raw,sub-0400,RAW_sub-0400,YES,YES,YES,MCI,YES
+data_raw,sub-0401,RAW_sub-0401,YES,NO,YES,CN,NO
+data_raw,sub-0402,RAW_sub-0402,YES,YES,YES,AD,YES
+data_raw,sub-0403,RAW_sub-0403,YES,YES,YES,AD,YES
+data_raw,sub-0404,RAW_sub-0404,YES,YES,YES,CN,YES
+data_raw,sub-0405,RAW_sub-0405,YES,YES,YES,AD,YES
+data_raw,sub-0406,RAW_sub-0406,YES,YES,YES,AD,YES
+data_raw,sub-0407,RAW_sub-0407,YES,YES,YES,CN,YES
+data_raw,sub-0408,RAW_sub-0408,NO,YES,YES,AD,NO
+data_raw,sub-0409,RAW_sub-0409,YES,YES,YES,CN,YES
+data_raw,sub-0410,RAW_sub-0410,YES,YES,YES,AD,YES
+data_raw,sub-0411,RAW_sub-0411,YES,YES,YES,MCI,YES
+data_raw,sub-0412,RAW_sub-0412,YES,YES,YES,MCI,YES
+data_raw,sub-0413,RAW_sub-0413,NO,YES,YES,CN,NO
+data_raw,sub-0414,RAW_sub-0414,YES,YES,YES,AD,YES
+data_raw,sub-0415,RAW_sub-0415,YES,YES,YES,CN,YES
+data_raw,sub-0416,RAW_sub-0416,YES,NO,YES,CN,NO
+data_raw,sub-0417,RAW_sub-0417,NO,YES,YES,CN,NO
+data_raw,sub-0418,RAW_sub-0418,YES,YES,YES,AD,YES
+data_raw,sub-0419,RAW_sub-0419,YES,YES,YES,CN,YES
+data_raw,sub-0420,RAW_sub-0420,YES,YES,YES,AD,YES
+data_raw,sub-0421,RAW_sub-0421,YES,YES,YES,MCI,YES
+data_raw,sub-0422,RAW_sub-0422,YES,YES,YES,CN,YES
+data_raw,sub-0423,RAW_sub-0423,YES,YES,YES,CN,YES
+data_raw,sub-0424,RAW_sub-0424,YES,YES,YES,CN,YES
+data_raw,sub-0425,RAW_sub-0425,YES,YES,YES,MCI,YES
+data_raw,sub-0426,RAW_sub-0426,NO,NO,YES,AD,NO
+data_raw,sub-0427,RAW_sub-0427,YES,YES,YES,CN,YES
+data_raw,sub-0428,RAW_sub-0428,YES,YES,YES,AD,YES
+data_raw,sub-0429,RAW_sub-0429,YES,YES,YES,CN,YES
+data_raw,sub-0430,RAW_sub-0430,YES,YES,YES,AD,YES
+data_raw,sub-0431,RAW_sub-0431,YES,YES,YES,AD,YES
+data_raw,sub-0432,RAW_sub-0432,NO,YES,YES,AD,NO
+data_raw,sub-0433,RAW_sub-0433,YES,YES,YES,MCI,YES
+data_raw,sub-0434,RAW_sub-0434,YES,YES,YES,AD,YES
+data_raw,sub-0435,RAW_sub-0435,YES,YES,YES,CN,YES
+data_raw,sub-0436,RAW_sub-0436,YES,YES,YES,CN,YES
+data_raw,sub-0437,RAW_sub-0437,YES,YES,YES,CN,YES
+data_raw,sub-0438,RAW_sub-0438,YES,YES,YES,MCI,YES
+data_raw,sub-0439,RAW_sub-0439,NO,YES,YES,MCI,NO
+data_raw,sub-0440,RAW_sub-0440,YES,YES,YES,MCI,YES
+data_raw,sub-0441,RAW_sub-0441,YES,YES,YES,AD,YES
+data_raw,sub-0442,RAW_sub-0442,YES,NO,YES,CN,NO
+data_raw,sub-0443,RAW_sub-0443,YES,YES,YES,MCI,YES
+data_raw,sub-0444,RAW_sub-0444,YES,YES,YES,CN,YES
+data_raw,sub-0445,RAW_sub-0445,YES,YES,YES,CN,YES
+data_raw,sub-0446,RAW_sub-0446,YES,YES,YES,MCI,YES
+data_raw,sub-0447,RAW_sub-0447,YES,YES,YES,AD,YES
+data_raw,sub-0448,RAW_sub-0448,YES,YES,YES,MCI,YES
+data_raw,sub-0449,RAW_sub-0449,YES,YES,YES,CN,YES
+data_raw,sub-0450,RAW_sub-0450,YES,YES,YES,MCI,YES
+data_raw,sub-0451,RAW_sub-0451,YES,YES,YES,CN,YES
+data_raw,sub-0452,RAW_sub-0452,NO,YES,YES,AD,NO
+data_raw,sub-0453,RAW_sub-0453,YES,YES,YES,MCI,YES
+data_raw,sub-0454,RAW_sub-0454,YES,YES,YES,CN,YES
+data_raw,sub-0455,RAW_sub-0455,YES,YES,YES,CN,YES
+data_raw,sub-0456,RAW_sub-0456,YES,YES,YES,CN,YES
+data_raw,sub-0457,RAW_sub-0457,YES,YES,YES,AD,YES
+data_raw,sub-0458,RAW_sub-0458,YES,YES,YES,MCI,YES
+data_raw,sub-0459,RAW_sub-0459,YES,YES,YES,AD,YES
+data_raw,sub-0460,RAW_sub-0460,YES,NO,YES,MCI,NO
+data_raw,sub-0461,RAW_sub-0461,YES,YES,YES,MCI,YES
+data_raw,sub-0462,RAW_sub-0462,YES,YES,YES,CN,YES
+data_raw,sub-0463,RAW_sub-0463,YES,YES,YES,AD,YES
+data_raw,sub-0464,RAW_sub-0464,YES,YES,YES,CN,YES
+data_raw,sub-0465,RAW_sub-0465,YES,YES,YES,MCI,YES
+data_raw,sub-0466,RAW_sub-0466,YES,YES,YES,MCI,YES
+data_raw,sub-0467,RAW_sub-0467,YES,YES,YES,MCI,YES
+data_raw,sub-0468,RAW_sub-0468,YES,YES,YES,AD,YES
+data_raw,sub-0469,RAW_sub-0469,YES,YES,YES,CN,YES
+data_raw,sub-0470,RAW_sub-0470,YES,YES,YES,MCI,YES
+data_raw,sub-0471,RAW_sub-0471,YES,YES,YES,MCI,YES
+data_raw,sub-0472,RAW_sub-0472,YES,YES,YES,MCI,YES
+data_raw,sub-0473,RAW_sub-0473,YES,YES,YES,CN,YES
+data_raw,sub-0474,RAW_sub-0474,YES,YES,YES,CN,YES
+data_raw,sub-0475,RAW_sub-0475,YES,YES,YES,CN,YES
+data_raw,sub-0476,RAW_sub-0476,YES,YES,YES,CN,YES
+data_raw,sub-0477,RAW_sub-0477,YES,YES,YES,MCI,YES
+data_raw,sub-0478,RAW_sub-0478,YES,YES,YES,MCI,YES
+data_raw,sub-0479,RAW_sub-0479,YES,YES,YES,MCI,YES
+data_raw,sub-0480,RAW_sub-0480,YES,YES,YES,MCI,YES
+data_raw,sub-0481,RAW_sub-0481,YES,YES,YES,MCI,YES
+data_raw,sub-0482,RAW_sub-0482,YES,YES,YES,CN,YES
+data_raw,sub-0483,RAW_sub-0483,YES,YES,YES,MCI,YES
+data_raw,sub-0484,RAW_sub-0484,YES,YES,YES,CN,YES
+data_raw,sub-0485,RAW_sub-0485,YES,YES,YES,CN,YES
+data_raw,sub-0486,RAW_sub-0486,YES,YES,YES,MCI,YES
+data_raw,sub-0487,RAW_sub-0487,YES,YES,YES,MCI,YES
+data_raw,sub-0488,RAW_sub-0488,YES,YES,YES,CN,YES
+data_raw,sub-0489,RAW_sub-0489,NO,YES,YES,MCI,NO
+data_raw,sub-0490,RAW_sub-0490,YES,YES,YES,MCI,YES
+data_raw,sub-0491,RAW_sub-0491,YES,YES,YES,MCI,YES
+data_raw,sub-0492,RAW_sub-0492,YES,YES,YES,MCI,YES
+data_raw,sub-0493,RAW_sub-0493,YES,YES,YES,MCI,YES
+data_raw,sub-0494,RAW_sub-0494,YES,YES,YES,CN,YES
+data_raw,sub-0495,RAW_sub-0495,YES,YES,YES,AD,YES
+data_raw,sub-0496,RAW_sub-0496,YES,YES,YES,MCI,YES
+data_raw,sub-0497,RAW_sub-0497,YES,YES,YES,MCI,YES
+data_raw,sub-0498,RAW_sub-0498,YES,YES,YES,MCI,YES
+data_raw,sub-0499,RAW_sub-0499,YES,YES,YES,CN,YES
+data_raw,sub-0500,RAW_sub-0500,NO,YES,YES,MCI,NO
+data_raw,sub-0501,RAW_sub-0501,YES,YES,YES,MCI,YES
+data_raw,sub-0502,RAW_sub-0502,YES,YES,YES,AD,YES
+data_raw,sub-0503,RAW_sub-0503,YES,YES,YES,AD,YES
+data_raw,sub-0504,RAW_sub-0504,YES,YES,YES,MCI,YES
+data_raw,sub-0505,RAW_sub-0505,YES,YES,YES,MCI,YES
+data_raw,sub-0506,RAW_sub-0506,YES,YES,YES,AD,YES
+data_raw,sub-0507,RAW_sub-0507,YES,YES,YES,CN,YES
+data_raw,sub-0508,RAW_sub-0508,YES,YES,YES,AD,YES
+data_raw,sub-0509,RAW_sub-0509,YES,YES,YES,MCI,YES
+data_raw,sub-0510,RAW_sub-0510,YES,YES,YES,CN,YES
+data_raw,sub-0511,RAW_sub-0511,NO,YES,YES,CN,NO
+data_raw,sub-0512,RAW_sub-0512,YES,YES,YES,AD,YES
+data_raw,sub-0513,RAW_sub-0513,YES,YES,YES,CN,YES
+data_raw,sub-0514,RAW_sub-0514,YES,NO,YES,CN,NO
+data_raw,sub-0515,RAW_sub-0515,YES,YES,YES,CN,YES
+data_raw,sub-0516,RAW_sub-0516,YES,YES,YES,CN,YES
+data_raw,sub-0517,RAW_sub-0517,YES,YES,YES,CN,YES
+data_raw,sub-0518,RAW_sub-0518,YES,YES,YES,MCI,YES
+data_raw,sub-0519,RAW_sub-0519,YES,YES,YES,CN,YES
+data_raw,sub-0520,RAW_sub-0520,YES,YES,YES,AD,YES
+data_raw,sub-0521,RAW_sub-0521,YES,YES,YES,AD,YES
+data_raw,sub-0522,RAW_sub-0522,YES,YES,YES,CN,YES
+data_raw,sub-0523,RAW_sub-0523,YES,YES,YES,CN,YES
+data_raw,sub-0524,RAW_sub-0524,YES,YES,YES,MCI,YES
+data_raw,sub-0525,RAW_sub-0525,YES,YES,YES,CN,YES
+data_raw,sub-0526,RAW_sub-0526,YES,YES,YES,CN,YES
+data_raw,sub-0527,RAW_sub-0527,YES,YES,YES,AD,YES
+data_raw,sub-0528,RAW_sub-0528,YES,YES,YES,AD,YES
+data_raw,sub-0529,RAW_sub-0529,YES,NO,YES,AD,NO
+data_raw,sub-0530,RAW_sub-0530,YES,NO,YES,CN,NO
+data_raw,sub-0531,RAW_sub-0531,YES,YES,YES,MCI,YES
+data_raw,sub-0532,RAW_sub-0532,YES,YES,YES,MCI,YES
+data_raw,sub-0533,RAW_sub-0533,YES,YES,YES,CN,YES
+data_raw,sub-0534,RAW_sub-0534,YES,YES,YES,MCI,YES
+data_raw,sub-0535,RAW_sub-0535,NO,YES,YES,CN,NO
+data_raw,sub-0536,RAW_sub-0536,YES,YES,YES,CN,YES
+data_raw,sub-0537,RAW_sub-0537,YES,YES,YES,MCI,YES
+data_raw,sub-0538,RAW_sub-0538,YES,YES,YES,CN,YES
+data_raw,sub-0539,RAW_sub-0539,YES,YES,YES,CN,YES
+data_raw,sub-0540,RAW_sub-0540,YES,YES,YES,AD,YES
+data_raw,sub-0541,RAW_sub-0541,YES,YES,YES,AD,YES
+data_raw,sub-0542,RAW_sub-0542,YES,YES,YES,MCI,YES
+data_raw,sub-0543,RAW_sub-0543,YES,YES,YES,AD,YES
+data_raw,sub-0544,RAW_sub-0544,YES,YES,YES,AD,YES
+data_raw,sub-0545,RAW_sub-0545,YES,NO,YES,CN,NO
+data_raw,sub-0546,RAW_sub-0546,YES,YES,YES,MCI,YES
+data_raw,sub-0547,RAW_sub-0547,YES,YES,YES,CN,YES
+data_raw,sub-0548,RAW_sub-0548,YES,YES,YES,CN,YES
+data_raw,sub-0549,RAW_sub-0549,YES,YES,YES,AD,YES
+data_raw,sub-0550,RAW_sub-0550,YES,YES,YES,MCI,YES
+data_raw,sub-0551,RAW_sub-0551,NO,YES,YES,MCI,NO
+data_raw,sub-0552,RAW_sub-0552,YES,YES,YES,CN,YES
+data_raw,sub-0553,RAW_sub-0553,YES,YES,YES,CN,YES
+data_raw,sub-0554,RAW_sub-0554,YES,YES,YES,AD,YES
+data_raw,sub-0555,RAW_sub-0555,YES,YES,YES,CN,YES
+data_raw,sub-0556,RAW_sub-0556,YES,YES,YES,CN,YES
+data_raw,sub-0557,RAW_sub-0557,YES,YES,YES,CN,YES
+data_raw,sub-0558,RAW_sub-0558,YES,YES,YES,MCI,YES
+data_raw,sub-0559,RAW_sub-0559,YES,YES,YES,MCI,YES
+data_raw,sub-0560,RAW_sub-0560,YES,YES,YES,MCI,YES
+data_raw,sub-0561,RAW_sub-0561,YES,YES,YES,CN,YES
+data_raw,sub-0562,RAW_sub-0562,YES,YES,YES,CN,YES
+data_raw,sub-0563,RAW_sub-0563,YES,YES,YES,AD,YES
+data_raw,sub-0564,RAW_sub-0564,YES,YES,YES,MCI,YES
+data_raw,sub-0565,RAW_sub-0565,NO,YES,YES,MCI,NO
+data_raw,sub-0566,RAW_sub-0566,YES,YES,YES,MCI,YES
+data_raw,sub-0567,RAW_sub-0567,YES,YES,YES,AD,YES
+data_raw,sub-0568,RAW_sub-0568,YES,YES,YES,CN,YES
+data_raw,sub-0569,RAW_sub-0569,NO,YES,YES,CN,NO
+data_raw,sub-0570,RAW_sub-0570,YES,YES,YES,MCI,YES
+data_raw,sub-0571,RAW_sub-0571,YES,YES,YES,CN,YES
+data_raw,sub-0572,RAW_sub-0572,YES,YES,YES,AD,YES
+data_raw,sub-0573,RAW_sub-0573,YES,YES,YES,MCI,YES
+data_raw,sub-0574,RAW_sub-0574,YES,YES,YES,AD,YES
+data_raw,sub-0575,RAW_sub-0575,YES,NO,YES,AD,NO
+data_raw,sub-0576,RAW_sub-0576,YES,NO,YES,MCI,NO
+data_raw,sub-0577,RAW_sub-0577,YES,YES,YES,AD,YES
+data_raw,sub-0578,RAW_sub-0578,YES,YES,YES,MCI,YES
+data_raw,sub-0579,RAW_sub-0579,NO,YES,YES,AD,NO
+data_raw,sub-0580,RAW_sub-0580,YES,YES,YES,CN,YES
+data_raw,sub-0581,RAW_sub-0581,YES,YES,YES,MCI,YES
+data_raw,sub-0582,RAW_sub-0582,YES,YES,YES,MCI,YES
+data_raw,sub-0583,RAW_sub-0583,YES,YES,YES,CN,YES
+data_raw,sub-0584,RAW_sub-0584,YES,YES,YES,CN,YES
+data_raw,sub-0585,RAW_sub-0585,YES,YES,YES,AD,YES
+data_raw,sub-0586,RAW_sub-0586,YES,YES,YES,MCI,YES
+data_raw,sub-0587,RAW_sub-0587,YES,YES,YES,CN,YES
+data_raw,sub-0588,RAW_sub-0588,YES,YES,YES,CN,YES
+data_raw,sub-0589,RAW_sub-0589,YES,YES,YES,CN,YES
+data_raw,sub-0590,RAW_sub-0590,NO,YES,YES,CN,NO
+data_raw,sub-0591,RAW_sub-0591,YES,YES,YES,AD,YES
+data_raw,sub-0592,RAW_sub-0592,YES,YES,YES,MCI,YES
+data_raw,sub-0593,RAW_sub-0593,YES,YES,YES,CN,YES
+data_raw,sub-0594,RAW_sub-0594,YES,YES,YES,MCI,YES
+data_raw,sub-0595,RAW_sub-0595,YES,YES,YES,CN,YES
+data_raw,sub-0596,RAW_sub-0596,YES,YES,YES,CN,YES
+data_raw,sub-0597,RAW_sub-0597,NO,YES,YES,MCI,NO
+data_raw,sub-0598,RAW_sub-0598,YES,YES,YES,MCI,YES
+data_raw,sub-0599,RAW_sub-0599,YES,YES,YES,AD,YES
+data_raw,sub-0600,RAW_sub-0600,YES,YES,YES,MCI,YES
+ds007561_openneuro,sub-01,DS7561_sub-01,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-02,DS7561_sub-02,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-03,DS7561_sub-03,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,AD,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-04,DS7561_sub-04,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-05,DS7561_sub-05,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-06,DS7561_sub-06,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,MCI,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-07,DS7561_sub-07,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-08,DS7561_sub-08,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,MCI,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-09,DS7561_sub-09,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-10,DS7561_sub-10,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-11,DS7561_sub-11,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-12,DS7561_sub-12,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-13,DS7561_sub-13,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-14,DS7561_sub-14,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,MCI,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-15,DS7561_sub-15,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-16,DS7561_sub-16,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-17,DS7561_sub-17,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-18,DS7561_sub-18,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,MCI,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-19,DS7561_sub-19,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,MCI,NO (Voxel data unhydrated)
+ds007561_openneuro,sub-20,DS7561_sub-20,"YES (Pointer only, voxel unavailable)","YES (Pointer only, voxel unavailable)",YES,CN,NO (Voxel data unhydrated)
+oasis1_cross_sectional,OAS1_0001_MR1,OASIS1_OAS1_0001_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0002_MR1,OASIS1_OAS1_0002_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0003_MR1,OASIS1_OAS1_0003_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0004_MR1,OASIS1_OAS1_0004_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0005_MR1,OASIS1_OAS1_0005_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0006_MR1,OASIS1_OAS1_0006_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0007_MR1,OASIS1_OAS1_0007_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0009_MR1,OASIS1_OAS1_0009_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0010_MR1,OASIS1_OAS1_0010_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0011_MR1,OASIS1_OAS1_0011_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0012_MR1,OASIS1_OAS1_0012_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0013_MR1,OASIS1_OAS1_0013_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0014_MR1,OASIS1_OAS1_0014_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0015_MR1,OASIS1_OAS1_0015_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0016_MR1,OASIS1_OAS1_0016_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0017_MR1,OASIS1_OAS1_0017_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0018_MR1,OASIS1_OAS1_0018_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0019_MR1,OASIS1_OAS1_0019_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0020_MR1,OASIS1_OAS1_0020_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0021_MR1,OASIS1_OAS1_0021_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0022_MR1,OASIS1_OAS1_0022_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0023_MR1,OASIS1_OAS1_0023_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0025_MR1,OASIS1_OAS1_0025_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0026_MR1,OASIS1_OAS1_0026_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0027_MR1,OASIS1_OAS1_0027_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0028_MR1,OASIS1_OAS1_0028_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0029_MR1,OASIS1_OAS1_0029_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0030_MR1,OASIS1_OAS1_0030_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0031_MR1,OASIS1_OAS1_0031_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0032_MR1,OASIS1_OAS1_0032_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0033_MR1,OASIS1_OAS1_0033_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0034_MR1,OASIS1_OAS1_0034_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0035_MR1,OASIS1_OAS1_0035_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0037_MR1,OASIS1_OAS1_0037_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0038_MR1,OASIS1_OAS1_0038_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0039_MR1,OASIS1_OAS1_0039_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0040_MR1,OASIS1_OAS1_0040_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0041_MR1,OASIS1_OAS1_0041_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0042_MR1,OASIS1_OAS1_0042_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0043_MR1,OASIS1_OAS1_0043_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0044_MR1,OASIS1_OAS1_0044_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0045_MR1,OASIS1_OAS1_0045_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0046_MR1,OASIS1_OAS1_0046_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0047_MR1,OASIS1_OAS1_0047_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0049_MR1,OASIS1_OAS1_0049_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0050_MR1,OASIS1_OAS1_0050_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0051_MR1,OASIS1_OAS1_0051_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0052_MR1,OASIS1_OAS1_0052_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0053_MR1,OASIS1_OAS1_0053_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0054_MR1,OASIS1_OAS1_0054_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0055_MR1,OASIS1_OAS1_0055_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0056_MR1,OASIS1_OAS1_0056_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0057_MR1,OASIS1_OAS1_0057_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0058_MR1,OASIS1_OAS1_0058_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0059_MR1,OASIS1_OAS1_0059_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0060_MR1,OASIS1_OAS1_0060_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0061_MR1,OASIS1_OAS1_0061_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0062_MR1,OASIS1_OAS1_0062_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0063_MR1,OASIS1_OAS1_0063_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0064_MR1,OASIS1_OAS1_0064_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0065_MR1,OASIS1_OAS1_0065_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0066_MR1,OASIS1_OAS1_0066_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0067_MR1,OASIS1_OAS1_0067_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0068_MR1,OASIS1_OAS1_0068_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0069_MR1,OASIS1_OAS1_0069_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0070_MR1,OASIS1_OAS1_0070_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0071_MR1,OASIS1_OAS1_0071_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0072_MR1,OASIS1_OAS1_0072_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0073_MR1,OASIS1_OAS1_0073_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0074_MR1,OASIS1_OAS1_0074_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0075_MR1,OASIS1_OAS1_0075_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0076_MR1,OASIS1_OAS1_0076_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0077_MR1,OASIS1_OAS1_0077_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0078_MR1,OASIS1_OAS1_0078_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0079_MR1,OASIS1_OAS1_0079_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0080_MR1,OASIS1_OAS1_0080_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0081_MR1,OASIS1_OAS1_0081_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0082_MR1,OASIS1_OAS1_0082_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0083_MR1,OASIS1_OAS1_0083_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0084_MR1,OASIS1_OAS1_0084_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0085_MR1,OASIS1_OAS1_0085_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0086_MR1,OASIS1_OAS1_0086_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0087_MR1,OASIS1_OAS1_0087_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0088_MR1,OASIS1_OAS1_0088_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0090_MR1,OASIS1_OAS1_0090_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0091_MR1,OASIS1_OAS1_0091_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0092_MR1,OASIS1_OAS1_0092_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0094_MR1,OASIS1_OAS1_0094_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0095_MR1,OASIS1_OAS1_0095_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0096_MR1,OASIS1_OAS1_0096_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0097_MR1,OASIS1_OAS1_0097_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0098_MR1,OASIS1_OAS1_0098_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0099_MR1,OASIS1_OAS1_0099_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0101_MR1,OASIS1_OAS1_0101_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0102_MR1,OASIS1_OAS1_0102_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0103_MR1,OASIS1_OAS1_0103_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0104_MR1,OASIS1_OAS1_0104_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0105_MR1,OASIS1_OAS1_0105_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0106_MR1,OASIS1_OAS1_0106_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0107_MR1,OASIS1_OAS1_0107_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0108_MR1,OASIS1_OAS1_0108_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0109_MR1,OASIS1_OAS1_0109_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0110_MR1,OASIS1_OAS1_0110_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0111_MR1,OASIS1_OAS1_0111_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0112_MR1,OASIS1_OAS1_0112_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0113_MR1,OASIS1_OAS1_0113_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0114_MR1,OASIS1_OAS1_0114_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0115_MR1,OASIS1_OAS1_0115_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0116_MR1,OASIS1_OAS1_0116_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0117_MR1,OASIS1_OAS1_0117_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0119_MR1,OASIS1_OAS1_0119_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0120_MR1,OASIS1_OAS1_0120_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0121_MR1,OASIS1_OAS1_0121_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0122_MR1,OASIS1_OAS1_0122_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0123_MR1,OASIS1_OAS1_0123_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0124_MR1,OASIS1_OAS1_0124_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0125_MR1,OASIS1_OAS1_0125_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0126_MR1,OASIS1_OAS1_0126_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0127_MR1,OASIS1_OAS1_0127_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0129_MR1,OASIS1_OAS1_0129_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0130_MR1,OASIS1_OAS1_0130_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0131_MR1,OASIS1_OAS1_0131_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0132_MR1,OASIS1_OAS1_0132_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0133_MR1,OASIS1_OAS1_0133_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0134_MR1,OASIS1_OAS1_0134_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0135_MR1,OASIS1_OAS1_0135_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0136_MR1,OASIS1_OAS1_0136_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0137_MR1,OASIS1_OAS1_0137_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0138_MR1,OASIS1_OAS1_0138_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0139_MR1,OASIS1_OAS1_0139_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0140_MR1,OASIS1_OAS1_0140_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0141_MR1,OASIS1_OAS1_0141_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0142_MR1,OASIS1_OAS1_0142_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0143_MR1,OASIS1_OAS1_0143_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0144_MR1,OASIS1_OAS1_0144_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0145_MR1,OASIS1_OAS1_0145_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0146_MR1,OASIS1_OAS1_0146_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0147_MR1,OASIS1_OAS1_0147_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0148_MR1,OASIS1_OAS1_0148_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0150_MR1,OASIS1_OAS1_0150_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0151_MR1,OASIS1_OAS1_0151_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0152_MR1,OASIS1_OAS1_0152_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0153_MR1,OASIS1_OAS1_0153_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0155_MR1,OASIS1_OAS1_0155_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0156_MR1,OASIS1_OAS1_0156_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0157_MR1,OASIS1_OAS1_0157_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0158_MR1,OASIS1_OAS1_0158_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0159_MR1,OASIS1_OAS1_0159_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0160_MR1,OASIS1_OAS1_0160_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0161_MR1,OASIS1_OAS1_0161_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0162_MR1,OASIS1_OAS1_0162_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0163_MR1,OASIS1_OAS1_0163_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0164_MR1,OASIS1_OAS1_0164_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0165_MR1,OASIS1_OAS1_0165_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0166_MR1,OASIS1_OAS1_0166_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0167_MR1,OASIS1_OAS1_0167_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0168_MR1,OASIS1_OAS1_0168_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0169_MR1,OASIS1_OAS1_0169_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0170_MR1,OASIS1_OAS1_0170_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0173_MR1,OASIS1_OAS1_0173_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0174_MR1,OASIS1_OAS1_0174_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0176_MR1,OASIS1_OAS1_0176_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0177_MR1,OASIS1_OAS1_0177_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0178_MR1,OASIS1_OAS1_0178_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0179_MR1,OASIS1_OAS1_0179_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0180_MR1,OASIS1_OAS1_0180_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0181_MR1,OASIS1_OAS1_0181_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0182_MR1,OASIS1_OAS1_0182_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0183_MR1,OASIS1_OAS1_0183_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0184_MR1,OASIS1_OAS1_0184_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0185_MR1,OASIS1_OAS1_0185_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0186_MR1,OASIS1_OAS1_0186_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0188_MR1,OASIS1_OAS1_0188_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0189_MR1,OASIS1_OAS1_0189_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0190_MR1,OASIS1_OAS1_0190_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0191_MR1,OASIS1_OAS1_0191_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0192_MR1,OASIS1_OAS1_0192_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0193_MR1,OASIS1_OAS1_0193_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0195_MR1,OASIS1_OAS1_0195_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0197_MR1,OASIS1_OAS1_0197_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0198_MR1,OASIS1_OAS1_0198_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0199_MR1,OASIS1_OAS1_0199_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0200_MR1,OASIS1_OAS1_0200_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0201_MR1,OASIS1_OAS1_0201_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0202_MR1,OASIS1_OAS1_0202_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0203_MR1,OASIS1_OAS1_0203_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0204_MR1,OASIS1_OAS1_0204_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0205_MR1,OASIS1_OAS1_0205_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0206_MR1,OASIS1_OAS1_0206_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0207_MR1,OASIS1_OAS1_0207_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0208_MR1,OASIS1_OAS1_0208_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0209_MR1,OASIS1_OAS1_0209_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0210_MR1,OASIS1_OAS1_0210_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0211_MR1,OASIS1_OAS1_0211_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0212_MR1,OASIS1_OAS1_0212_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0213_MR1,OASIS1_OAS1_0213_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0214_MR1,OASIS1_OAS1_0214_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0216_MR1,OASIS1_OAS1_0216_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0217_MR1,OASIS1_OAS1_0217_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0218_MR1,OASIS1_OAS1_0218_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0220_MR1,OASIS1_OAS1_0220_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0221_MR1,OASIS1_OAS1_0221_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0222_MR1,OASIS1_OAS1_0222_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0223_MR1,OASIS1_OAS1_0223_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0224_MR1,OASIS1_OAS1_0224_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0226_MR1,OASIS1_OAS1_0226_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0227_MR1,OASIS1_OAS1_0227_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0228_MR1,OASIS1_OAS1_0228_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0229_MR1,OASIS1_OAS1_0229_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0230_MR1,OASIS1_OAS1_0230_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0231_MR1,OASIS1_OAS1_0231_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0232_MR1,OASIS1_OAS1_0232_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0233_MR1,OASIS1_OAS1_0233_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0234_MR1,OASIS1_OAS1_0234_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0235_MR1,OASIS1_OAS1_0235_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0236_MR1,OASIS1_OAS1_0236_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0237_MR1,OASIS1_OAS1_0237_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0238_MR1,OASIS1_OAS1_0238_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0239_MR1,OASIS1_OAS1_0239_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0240_MR1,OASIS1_OAS1_0240_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0241_MR1,OASIS1_OAS1_0241_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0243_MR1,OASIS1_OAS1_0243_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0244_MR1,OASIS1_OAS1_0244_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0246_MR1,OASIS1_OAS1_0246_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0247_MR1,OASIS1_OAS1_0247_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0249_MR1,OASIS1_OAS1_0249_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0250_MR1,OASIS1_OAS1_0250_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0253_MR1,OASIS1_OAS1_0253_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0254_MR1,OASIS1_OAS1_0254_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0255_MR1,OASIS1_OAS1_0255_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0256_MR1,OASIS1_OAS1_0256_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0258_MR1,OASIS1_OAS1_0258_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0259_MR1,OASIS1_OAS1_0259_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0260_MR1,OASIS1_OAS1_0260_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0261_MR1,OASIS1_OAS1_0261_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0262_MR1,OASIS1_OAS1_0262_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0263_MR1,OASIS1_OAS1_0263_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0264_MR1,OASIS1_OAS1_0264_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0265_MR1,OASIS1_OAS1_0265_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0266_MR1,OASIS1_OAS1_0266_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0267_MR1,OASIS1_OAS1_0267_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0268_MR1,OASIS1_OAS1_0268_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0269_MR1,OASIS1_OAS1_0269_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0270_MR1,OASIS1_OAS1_0270_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0271_MR1,OASIS1_OAS1_0271_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0272_MR1,OASIS1_OAS1_0272_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0273_MR1,OASIS1_OAS1_0273_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0274_MR1,OASIS1_OAS1_0274_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0275_MR1,OASIS1_OAS1_0275_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0277_MR1,OASIS1_OAS1_0277_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0278_MR1,OASIS1_OAS1_0278_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0279_MR1,OASIS1_OAS1_0279_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0280_MR1,OASIS1_OAS1_0280_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0281_MR1,OASIS1_OAS1_0281_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0282_MR1,OASIS1_OAS1_0282_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0283_MR1,OASIS1_OAS1_0283_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0284_MR1,OASIS1_OAS1_0284_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0285_MR1,OASIS1_OAS1_0285_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0286_MR1,OASIS1_OAS1_0286_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0287_MR1,OASIS1_OAS1_0287_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0288_MR1,OASIS1_OAS1_0288_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0289_MR1,OASIS1_OAS1_0289_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0290_MR1,OASIS1_OAS1_0290_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0291_MR1,OASIS1_OAS1_0291_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0292_MR1,OASIS1_OAS1_0292_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0293_MR1,OASIS1_OAS1_0293_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0294_MR1,OASIS1_OAS1_0294_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0295_MR1,OASIS1_OAS1_0295_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0296_MR1,OASIS1_OAS1_0296_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0298_MR1,OASIS1_OAS1_0298_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0299_MR1,OASIS1_OAS1_0299_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0300_MR1,OASIS1_OAS1_0300_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0301_MR1,OASIS1_OAS1_0301_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0302_MR1,OASIS1_OAS1_0302_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0303_MR1,OASIS1_OAS1_0303_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0304_MR1,OASIS1_OAS1_0304_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0305_MR1,OASIS1_OAS1_0305_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0307_MR1,OASIS1_OAS1_0307_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0308_MR1,OASIS1_OAS1_0308_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0309_MR1,OASIS1_OAS1_0309_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0310_MR1,OASIS1_OAS1_0310_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0311_MR1,OASIS1_OAS1_0311_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0312_MR1,OASIS1_OAS1_0312_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0313_MR1,OASIS1_OAS1_0313_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0314_MR1,OASIS1_OAS1_0314_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0315_MR1,OASIS1_OAS1_0315_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0316_MR1,OASIS1_OAS1_0316_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0317_MR1,OASIS1_OAS1_0317_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0318_MR1,OASIS1_OAS1_0318_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0319_MR1,OASIS1_OAS1_0319_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0321_MR1,OASIS1_OAS1_0321_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0322_MR1,OASIS1_OAS1_0322_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0323_MR1,OASIS1_OAS1_0323_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0325_MR1,OASIS1_OAS1_0325_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0326_MR1,OASIS1_OAS1_0326_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0327_MR1,OASIS1_OAS1_0327_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0328_MR1,OASIS1_OAS1_0328_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0329_MR1,OASIS1_OAS1_0329_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0330_MR1,OASIS1_OAS1_0330_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0331_MR1,OASIS1_OAS1_0331_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0332_MR1,OASIS1_OAS1_0332_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0333_MR1,OASIS1_OAS1_0333_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0335_MR1,OASIS1_OAS1_0335_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0336_MR1,OASIS1_OAS1_0336_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0337_MR1,OASIS1_OAS1_0337_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0338_MR1,OASIS1_OAS1_0338_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0339_MR1,OASIS1_OAS1_0339_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0340_MR1,OASIS1_OAS1_0340_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0341_MR1,OASIS1_OAS1_0341_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0342_MR1,OASIS1_OAS1_0342_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0343_MR1,OASIS1_OAS1_0343_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0344_MR1,OASIS1_OAS1_0344_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0345_MR1,OASIS1_OAS1_0345_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0346_MR1,OASIS1_OAS1_0346_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0348_MR1,OASIS1_OAS1_0348_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0349_MR1,OASIS1_OAS1_0349_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0350_MR1,OASIS1_OAS1_0350_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0351_MR1,OASIS1_OAS1_0351_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0352_MR1,OASIS1_OAS1_0352_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0353_MR1,OASIS1_OAS1_0353_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0354_MR1,OASIS1_OAS1_0354_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0355_MR1,OASIS1_OAS1_0355_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0356_MR1,OASIS1_OAS1_0356_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0357_MR1,OASIS1_OAS1_0357_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0358_MR1,OASIS1_OAS1_0358_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0359_MR1,OASIS1_OAS1_0359_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0361_MR1,OASIS1_OAS1_0361_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0362_MR1,OASIS1_OAS1_0362_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0363_MR1,OASIS1_OAS1_0363_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0365_MR1,OASIS1_OAS1_0365_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0366_MR1,OASIS1_OAS1_0366_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0367_MR1,OASIS1_OAS1_0367_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0368_MR1,OASIS1_OAS1_0368_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0369_MR1,OASIS1_OAS1_0369_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0370_MR1,OASIS1_OAS1_0370_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0371_MR1,OASIS1_OAS1_0371_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0372_MR1,OASIS1_OAS1_0372_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0373_MR1,OASIS1_OAS1_0373_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0374_MR1,OASIS1_OAS1_0374_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0375_MR1,OASIS1_OAS1_0375_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0376_MR1,OASIS1_OAS1_0376_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0377_MR1,OASIS1_OAS1_0377_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0378_MR1,OASIS1_OAS1_0378_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0379_MR1,OASIS1_OAS1_0379_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0380_MR1,OASIS1_OAS1_0380_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0381_MR1,OASIS1_OAS1_0381_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0382_MR1,OASIS1_OAS1_0382_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0383_MR1,OASIS1_OAS1_0383_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0384_MR1,OASIS1_OAS1_0384_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0385_MR1,OASIS1_OAS1_0385_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0386_MR1,OASIS1_OAS1_0386_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0387_MR1,OASIS1_OAS1_0387_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0388_MR1,OASIS1_OAS1_0388_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0389_MR1,OASIS1_OAS1_0389_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0390_MR1,OASIS1_OAS1_0390_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0392_MR1,OASIS1_OAS1_0392_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0394_MR1,OASIS1_OAS1_0394_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0395_MR1,OASIS1_OAS1_0395_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0396_MR1,OASIS1_OAS1_0396_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0397_MR1,OASIS1_OAS1_0397_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0398_MR1,OASIS1_OAS1_0398_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0399_MR1,OASIS1_OAS1_0399_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0400_MR1,OASIS1_OAS1_0400_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0401_MR1,OASIS1_OAS1_0401_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0402_MR1,OASIS1_OAS1_0402_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0403_MR1,OASIS1_OAS1_0403_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0404_MR1,OASIS1_OAS1_0404_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0405_MR1,OASIS1_OAS1_0405_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0406_MR1,OASIS1_OAS1_0406_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0407_MR1,OASIS1_OAS1_0407_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0408_MR1,OASIS1_OAS1_0408_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0409_MR1,OASIS1_OAS1_0409_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0410_MR1,OASIS1_OAS1_0410_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0411_MR1,OASIS1_OAS1_0411_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0413_MR1,OASIS1_OAS1_0413_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0415_MR1,OASIS1_OAS1_0415_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0416_MR1,OASIS1_OAS1_0416_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0417_MR1,OASIS1_OAS1_0417_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0418_MR1,OASIS1_OAS1_0418_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0419_MR1,OASIS1_OAS1_0419_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0420_MR1,OASIS1_OAS1_0420_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0421_MR1,OASIS1_OAS1_0421_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0422_MR1,OASIS1_OAS1_0422_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0423_MR1,OASIS1_OAS1_0423_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0424_MR1,OASIS1_OAS1_0424_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0425_MR1,OASIS1_OAS1_0425_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0426_MR1,OASIS1_OAS1_0426_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0428_MR1,OASIS1_OAS1_0428_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0429_MR1,OASIS1_OAS1_0429_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0430_MR1,OASIS1_OAS1_0430_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0431_MR1,OASIS1_OAS1_0431_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0432_MR1,OASIS1_OAS1_0432_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0433_MR1,OASIS1_OAS1_0433_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0434_MR1,OASIS1_OAS1_0434_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0435_MR1,OASIS1_OAS1_0435_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0437_MR1,OASIS1_OAS1_0437_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0438_MR1,OASIS1_OAS1_0438_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0439_MR1,OASIS1_OAS1_0439_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0440_MR1,OASIS1_OAS1_0440_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0441_MR1,OASIS1_OAS1_0441_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0442_MR1,OASIS1_OAS1_0442_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0443_MR1,OASIS1_OAS1_0443_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0444_MR1,OASIS1_OAS1_0444_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0445_MR1,OASIS1_OAS1_0445_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0446_MR1,OASIS1_OAS1_0446_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0447_MR1,OASIS1_OAS1_0447_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0448_MR1,OASIS1_OAS1_0448_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0449_MR1,OASIS1_OAS1_0449_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0450_MR1,OASIS1_OAS1_0450_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0451_MR1,OASIS1_OAS1_0451_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0452_MR1,OASIS1_OAS1_0452_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,AD,NO (No PET)
+oasis1_cross_sectional,OAS1_0453_MR1,OASIS1_OAS1_0453_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0454_MR1,OASIS1_OAS1_0454_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,MCI,NO (No PET)
+oasis1_cross_sectional,OAS1_0455_MR1,OASIS1_OAS1_0455_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0456_MR1,OASIS1_OAS1_0456_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0457_MR1,OASIS1_OAS1_0457_MR1,NO,YES (Extracted measures eTIV/nWBV),YES,CN,NO (No PET)
+oasis1_cross_sectional,OAS1_0061_MR2,OASIS1_OAS1_0061_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0080_MR2,OASIS1_OAS1_0080_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0092_MR2,OASIS1_OAS1_0092_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0101_MR2,OASIS1_OAS1_0101_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0111_MR2,OASIS1_OAS1_0111_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0117_MR2,OASIS1_OAS1_0117_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0145_MR2,OASIS1_OAS1_0145_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0150_MR2,OASIS1_OAS1_0150_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0156_MR2,OASIS1_OAS1_0156_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0191_MR2,OASIS1_OAS1_0191_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0202_MR2,OASIS1_OAS1_0202_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0230_MR2,OASIS1_OAS1_0230_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0236_MR2,OASIS1_OAS1_0236_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0239_MR2,OASIS1_OAS1_0239_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0249_MR2,OASIS1_OAS1_0249_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0285_MR2,OASIS1_OAS1_0285_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0353_MR2,OASIS1_OAS1_0353_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0368_MR2,OASIS1_OAS1_0368_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0379_MR2,OASIS1_OAS1_0379_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)
+oasis1_cross_sectional,OAS1_0395_MR2,OASIS1_OAS1_0395_MR2,NO,YES (Extracted measures eTIV/nWBV),YES,No_CDR_Evaluated,NO (No PET)

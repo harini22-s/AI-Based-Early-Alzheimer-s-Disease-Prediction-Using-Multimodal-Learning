@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv*/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+
+# Datasets (see DATASETS.md)
+data/*
+!data/raw/
+data/raw/*
+!data/raw/README.md
+MRI DS/
+MRI DS.zip
+ds007561-main/
+oasis_cross-sectional-*.xlsx
+
+# Trained models and checkpoints
+/models/
+outputs/checkpoints/
+*.pth
+*.pt
+*.ckpt
